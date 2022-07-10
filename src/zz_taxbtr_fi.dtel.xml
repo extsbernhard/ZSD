@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZZ_TAXBTR_FI</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>WERTV6</DOMNAME>
+    <HEADLEN>20</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Steuerbetrag aus FI-Beleg (ggf. kumuliert)</DDTEXT>
+    <REPTEXT>MwSt Betrag FI-Beleg</REPTEXT>
+    <SCRTEXT_S>MwSt_FI</SCRTEXT_S>
+    <SCRTEXT_M>MwSt-Betr.FI</SCRTEXT_M>
+    <SCRTEXT_L>MwSt Betrag FI</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

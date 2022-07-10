@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZZ_RUECKQUOTE</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>DEC3_2</DOMNAME>
+    <HEADLEN>13</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>13</SCRLEN2>
+    <SCRLEN3>17</SCRLEN3>
+    <DDTEXT>Rückerstattungsquote aus den Gesuchen 2007-2010</DDTEXT>
+    <REPTEXT>Rückzlg.quote</REPTEXT>
+    <SCRTEXT_S>Rückzlg.q.</SCRTEXT_S>
+    <SCRTEXT_M>Rückzlg.quote</SCRTEXT_M>
+    <SCRTEXT_L>Rückzahlungsquote</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZSD_05_KEHRICHT_AUFTRAG</NAME>
+    <SUBC>1</SUBC>
+    <RSTAT>K</RSTAT>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>B01</KEY>
+     <ENTRY>Datenselektion</ENTRY>
+     <LENGTH>14</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>B02</KEY>
+     <ENTRY>Parameter</ENTRY>
+     <LENGTH>9</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Kundenaufträge anlegen für Verrechnung Kehrichtgrundgebühr</ENTRY>
+     <LENGTH>58</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_FEHLER</KEY>
+     <ENTRY>Fehlerliste anzeigen</ENTRY>
+     <LENGTH>28</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_LISTE</KEY>
+     <ENTRY>Kontroll-Liste anzeigen</ENTRY>
+     <LENGTH>31</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_VEROD</KEY>
+     <ENTRY>Verordnungstext</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_VERR</KEY>
+     <ENTRY>Verrechnungsdatum</ENTRY>
+     <LENGTH>28</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_WIED</KEY>
+     <ENTRY>einzel. Auftrag wiederholen</ENTRY>
+     <LENGTH>35</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_OBJEKT</KEY>
+     <ENTRY>Objekt</ENTRY>
+     <LENGTH>14</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_PARZEL</KEY>
+     <ENTRY>Parzellen-Nr.</ENTRY>
+     <LENGTH>21</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_PERIO</KEY>
+     <ENTRY>Verrech.Periodizität</ENTRY>
+     <LENGTH>28</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_STADTT</KEY>
+     <ENTRY>Stadtteil</ENTRY>
+     <LENGTH>17</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+   </TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

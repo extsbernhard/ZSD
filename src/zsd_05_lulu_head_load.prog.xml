@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZSD_05_LULU_HEAD_LOAD</NAME>
+    <SUBC>1</SUBC>
+    <APPL>*</APPL>
+    <RSTAT>K</RSTAT>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Upload ZSD_05_LULU_XXXX Rescue</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PDELFAKT</KEY>
+     <ENTRY>Löschen Tab. ZSD_05_LULU_FAKT</ENTRY>
+     <LENGTH>37</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PDELFK02</KEY>
+     <ENTRY>Löschen Tab. ZSD_05_LULU_FK02</ENTRY>
+     <LENGTH>37</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PDELHD02</KEY>
+     <ENTRY>Löschen Tab. ZSD_05_LULU_HD02</ENTRY>
+     <LENGTH>37</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PDELHEAD</KEY>
+     <ENTRY>Löschen Tab. ZSD_05_LULU_HEAD</ENTRY>
+     <LENGTH>37</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PDELHEAK</KEY>
+     <ENTRY>Löschen Tab. ZSD_05_LULU_HEAK</ENTRY>
+     <LENGTH>37</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PDELHINW</KEY>
+     <ENTRY>Löschen Tab. ZSD_05_HINWEIS</ENTRY>
+     <LENGTH>35</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PDELKEHR</KEY>
+     <ENTRY>Löschen Tab. ZSD_04_KEHRICHT</ENTRY>
+     <LENGTH>36</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PFFAKT</KEY>
+     <ENTRY>Einlesen ZSD_05_LULU_FAKT</ENTRY>
+     <LENGTH>33</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PFFK02</KEY>
+     <ENTRY>Einlesen ZSD_05_LULU_FK02</ENTRY>
+     <LENGTH>33</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PFHD02</KEY>
+     <ENTRY>Einlesen ZSD_05_LULU_HD02</ENTRY>
+     <LENGTH>33</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PFHEAD</KEY>
+     <ENTRY>Einlesen ZSD_05_LULU_HEAD</ENTRY>
+     <LENGTH>33</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PFHEAK</KEY>
+     <ENTRY>Einlesen ZSD_05_LULU_HEAK</ENTRY>
+     <LENGTH>33</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PFHINW</KEY>
+     <ENTRY>Einlesen ZSD_05_HINWEIS</ENTRY>
+     <LENGTH>31</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PFKEHR</KEY>
+     <ENTRY>Einlesen ZSD_04_KEHRICHT</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+   </TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TRAN" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TSTC>
+    <TCODE>ZSD_IV_PARAM_PFLEGE</TCODE>
+    <CINFO>Ig==</CINFO>
+   </TSTC>
+   <TSTCC>
+    <TCODE>ZSD_IV_PARAM_PFLEGE</TCODE>
+    <S_WEBGUI>1</S_WEBGUI>
+    <S_WIN32>X</S_WIN32>
+    <S_PLATIN>X</S_PLATIN>
+   </TSTCC>
+   <TSTCT>
+    <SPRSL>D</SPRSL>
+    <TCODE>ZSD_IV_PARAM_PFLEGE</TCODE>
+    <TTEXT>Interne Verr.-Param-Pflege(ERASAP)</TTEXT>
+   </TSTCT>
+   <TSTCP>
+    <TCODE>ZSD_IV_PARAM_PFLEGE</TCODE>
+    <PARAM>/*SM31 VIEWNAME=ZSD_IV_STG001;UPDATE=X;</PARAM>
+   </TSTCP>
+  </asx:values>
+ </asx:abap>
+</abapGit>

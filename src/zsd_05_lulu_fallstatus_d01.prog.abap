@@ -1,0 +1,50 @@
+*&---------------------------------------------------------------------*
+*&  Include           ZSD_05_LULU_FALLSTATUS_D01
+*&---------------------------------------------------------------------*
+
+*--------Tabellendefinitionen -(tables)--------------------------------*
+TABLES: zsd_05_kehr_auft, zsd_05_lulu_head, zsd_05_lulu_fakt.
+*--------C - Counter----------------akt.-----------------------------------*
+*--------R - Ranges----------------------------------------------------*
+*--------S - Schalter--------------------------------------------------*¨
+*--------T - interne Tabellen------------------------------------------*
+DATA: lt_kehr_auft TYPE TABLE OF zsd_05_kehr_auft.
+DATA: lt_zsd_04_kehricht TYPE TABLE OF zsd_04_kehricht.
+
+DATA: lt_lulu_head TYPE TABLE OF zsd_05_lulu_head.
+DATA: lt_lulu_prot TYPE TABLE OF zsd_05_lulu_prot.
+
+DATA: lt_lulu_hd02 TYPE TABLE OF zsd_05_lulu_hd02.
+
+DATA: lt_lulu_fakt TYPE TABLE OF zsd_05_lulu_fakt.
+DATA: lt_kehr_auft_h TYPE TABLE OF zsd_05_kehr_auft.
+DATA: lt_objekt TYPE TABLE OF zsd_05_objekt.
+*--------V - Value-Felder----------------------------------------------*
+
+*--------W - Work-Felder (Hilfsfelder)---------------------------------*
+DATA: lv_answer(1) TYPE c.
+DATA: lv_aenam TYPE aenam,
+      lv_aedat TYPE aedat,
+      lv_aezet TYPE aezet.
+*--------W - Work-Strukturen-------------------------------------------*
+DATA: ls_kehr_auft LIKE LINE OF lt_kehr_auft.
+DATA: ls_zsd_04_kehricht LIKE LINE OF lt_zsd_04_kehricht.
+DATA: ls_objekt LIKE LINE OF lt_objekt.
+DATA: ls_lulu_head TYPE  zsd_05_lulu_head.
+DATA: ls_lulu_prot TYPE zsd_05_lulu_prot.
+DATA: ls_lulu_fakt TYPE  zsd_05_lulu_fakt.
+DATA: ls_lulu_hd02 TYPE   zsd_05_lulu_hd02.
+
+DATA: s_perst TYPE RANGE OF ld_perst.
+DATA: s_pered TYPE RANGE OF ld_pered.
+DATA: w_perst LIKE LINE OF s_perst.
+DATA: w_pered LIKE LINE OF s_pered.
+*--------CON - Konstanten ---------------------------------------------*
+
+*--------Feld-Symbole--------------------------------------------------*
+FIELD-SYMBOLS: <fs_lulu_head> TYPE zsd_05_lulu_head.
+*--------Makros--------------------------------------------------------*
+*--------Obj - Objekte-------------------------------------------------*
+DATA: obj_kehr_auft_alv TYPE REF TO cl_salv_table.          "#EC NEEDED
+
+*----------------------------------------------------------------------*

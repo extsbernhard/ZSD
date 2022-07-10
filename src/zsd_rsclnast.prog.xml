@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZSD_RSCLNAST</NAME>
+    <SUBC>1</SUBC>
+    <APPL>S</APPL>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Vorsicht Datenverlust!!!</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Bei Betätigung von &quot;JA&quot; werden</ENTRY>
+     <LENGTH>31</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>die gewählten NAST-Sätze gelöscht!!!</ENTRY>
+     <LENGTH>36</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>004</KEY>
+     <ENTRY>Bei Betätigung von &quot;JA&quot; wird</ENTRY>
+     <LENGTH>29</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>005</KEY>
+     <ENTRY>gelöscht!!!</ENTRY>
+     <LENGTH>11</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>006</KEY>
+     <ENTRY>NAST-Satz gelöscht!!!</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>010</KEY>
+     <ENTRY>LÖSCHE:</ENTRY>
+     <LENGTH>7</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>011</KEY>
+     <ENTRY>GELÖSCHT:</ENTRY>
+     <LENGTH>9</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>020</KEY>
+     <ENTRY>Setze:</ENTRY>
+     <LENGTH>6</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>021</KEY>
+     <ENTRY>Verarbeitet!</ENTRY>
+     <LENGTH>12</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>500</KEY>
+     <ENTRY>Zeiteinheit:</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>501</KEY>
+     <ENTRY>Archivierungsperiode</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Report zum Löschen von Nachrichtenstatussätzen (auf Konsistenz achten)</ENTRY>
+     <LENGTH>70</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>CONF_ALL</KEY>
+     <ENTRY>Bestätigung bei jeder Löschung</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>DELTA</KEY>
+     <ENTRY>erstellt bis vor Tagesdatum</ENTRY>
+     <LENGTH>35</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>NORMAL</KEY>
+     <ENTRY>Normaler Löschablauf</ENTRY>
+     <LENGTH>28</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PREVIEW</KEY>
+     <ENTRY>Kein Löschen, nur Simulation</ENTRY>
+     <LENGTH>36</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_ERDAT</KEY>
+     <ENTRY>Datum der Erstellung</ENTRY>
+     <LENGTH>28</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_ERUHR</KEY>
+     <ENTRY>Uhrzeit der Erstellung</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_KAPPL</KEY>
+     <ENTRY>Nachrichtenapplikation</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_KSCHL</KEY>
+     <ENTRY>Nachrichtenart (Konditionsart)</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_NACHA</KEY>
+     <ENTRY>Sendemedium der Nachricht</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_OBJKY</KEY>
+     <ENTRY>Objektschlüssel</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_PARNR</KEY>
+     <ENTRY>Nachrichtenpartner</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_PARVW</KEY>
+     <ENTRY>Partnerrolle</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_VSTAT</KEY>
+     <ENTRY>Verarbeitungskennzeichen</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_VSZTP</KEY>
+     <ENTRY>Versandzeitpunkt</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>UNIT</KEY>
+     <ENTRY>Zeiteinheit</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>VERARB</KEY>
+     <ENTRY>Nachricht als Verarbeitet setz</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>S</ID>
+       <KEY>NORMAL</KEY>
+       <ENTRY>Normal deletion process</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PREVIEW</KEY>
+       <ENTRY>Simulation only, no deletion</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_ERDAT</KEY>
+       <ENTRY>Date of creation</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_ERUHR</KEY>
+       <ENTRY>Time of creation</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_KAPPL</KEY>
+       <ENTRY>Output application</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_KSCHL</KEY>
+       <ENTRY>Output type (Condition type)</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_NACHA</KEY>
+       <ENTRY>Transmission medium of output</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_OBJKY</KEY>
+       <ENTRY>Object key</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_PARNR</KEY>
+       <ENTRY>Output partner</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_PARVW</KEY>
+       <ENTRY>Partner function</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_VSZTP</KEY>
+       <ENTRY>Time of shipping</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>UNIT</KEY>
+       <ENTRY>Time unit</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>DELTA</KEY>
+       <ENTRY>created up until current date</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Caution: Loss of data!!!</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>If you activate &quot;YES&quot;, selected</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>message control records are deleted!</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Activitating &quot;YES&quot; causes</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>deletion!!!</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>Msg ctrl record deleted!!!</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>010</KEY>
+       <ENTRY>DELETE:</ENTRY>
+       <LENGTH>7</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>011</KEY>
+       <ENTRY>DELETED:</ENTRY>
+       <LENGTH>9</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>500</KEY>
+       <ENTRY>Time unit:</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>501</KEY>
+       <ENTRY>Archiving period</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Report for Deleting Output Status Records (Note Consistency)</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>CONF_ALL</KEY>
+       <ENTRY>Confirm each deletion</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

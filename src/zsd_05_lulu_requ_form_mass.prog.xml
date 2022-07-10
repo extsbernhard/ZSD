@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZSD_05_LULU_REQU_FORM_MASS</NAME>
+    <SUBC>1</SUBC>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Druckeinstellungen</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Testeinstellungen</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>Echtlauf-Einstellungen</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>010</KEY>
+     <ENTRY>für Fall-Nummer:</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>01A</KEY>
+     <ENTRY>Selektionsparameter Nachfrage - Mahnungen</ENTRY>
+     <LENGTH>41</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>F01</KEY>
+     <ENTRY>Sie haben sowohl Test- als auch Echtverarbeitung ausgewählt, bitte für eine Verarbeitung entscheiden!</ENTRY>
+     <LENGTH>101</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>F02</KEY>
+     <ENTRY>Sie haben Mahnungen zu bereits eingegangenen Antworten selektiert !!!</ENTRY>
+     <LENGTH>69</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>F90</KEY>
+     <ENTRY>Es wurde keine Nachfrage gedruckt, daher Mahnung nicht möglich ...</ENTRY>
+     <LENGTH>66</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>T01</KEY>
+     <ENTRY>Sie haben einen Testlauf gestartet !</ENTRY>
+     <LENGTH>36</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>T02</KEY>
+     <ENTRY>Sie haben einen Mahnungs-Testlauf gestartet !</ENTRY>
+     <LENGTH>45</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>V01</KEY>
+     <ENTRY>- Echtverarbeitung wurde gestartet - !!!</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>W02</KEY>
+     <ENTRY>Sie haben Test-Mahnungen zu unkorrekten Daten selektiert !!!</ENTRY>
+     <LENGTH>60</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Massendruck Datennachfrage (LULU)</ENTRY>
+     <LENGTH>33</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_DLOG</KEY>
+     <ENTRY>Keine Dialogausgabe</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_ECHT</KEY>
+     <ENTRY>Echtverarbeitung</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_EIGDA</KEY>
+     <ENTRY>Eingangsdatum initial (X=Ja)</ENTRY>
+     <LENGTH>36</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_MAHN</KEY>
+     <ENTRY>Mahnlauf ? (X=Ja; &quot;&quot;=Nein)</ENTRY>
+     <LENGTH>34</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_PRINT</KEY>
+     <ENTRY>Ausgabegerät</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_PRNOW</KEY>
+     <ENTRY>Sofortdruck</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_ROWE</KEY>
+     <ENTRY>Anzahl Datensätze pro Druck</ENTRY>
+     <LENGTH>35</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_ROWS</KEY>
+     <ENTRY>Anzahl Testfälle</ENTRY>
+     <LENGTH>29</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_SPGRP</KEY>
+     <ENTRY>Spoolgruppierung</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_TEST</KEY>
+     <ENTRY>Testlauf</ENTRY>
+     <LENGTH>16</LENGTH>
+    </item>
+   </TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

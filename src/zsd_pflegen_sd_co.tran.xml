@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TRAN" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TSTC>
+    <TCODE>ZSD_PFLEGEN_SD_CO</TCODE>
+    <CINFO>Ag==</CINFO>
+   </TSTC>
+   <TSTCC>
+    <TCODE>ZSD_PFLEGEN_SD_CO</TCODE>
+    <S_WEBGUI>1</S_WEBGUI>
+    <S_WIN32>X</S_WIN32>
+    <S_PLATIN>X</S_PLATIN>
+   </TSTCC>
+   <TSTCT>
+    <SPRSL>D</SPRSL>
+    <TCODE>ZSD_PFLEGEN_SD_CO</TCODE>
+    <TTEXT>Ableiten CO-Objekte zu SD-Positionen</TTEXT>
+   </TSTCT>
+   <TSTCP>
+    <TCODE>ZSD_PFLEGEN_SD_CO</TCODE>
+    <PARAM>/*SM31 VIEWNAME=zsd_mv45_co_ablp;SHOW=X;</PARAM>
+   </TSTCP>
+  </asx:values>
+ </asx:abap>
+</abapGit>

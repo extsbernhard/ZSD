@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZSD_05_LULU_RUECKZ_REP01</NAME>
+    <SUBC>1</SUBC>
+    <APPL>*</APPL>
+    <RSTAT>K</RSTAT>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Bereich</ENTRY>
+     <LENGTH>7</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Einschränkungen</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>Listausgabe</ENTRY>
+     <LENGTH>11</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>005</KEY>
+     <ENTRY>Test/Prüfeinschränkungen</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>F01</KEY>
+     <ENTRY>Es wurden keine Einträge selektiert! Bitte die Selektionsparameter prüfen!!!</ENTRY>
+     <LENGTH>76</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>S99</KEY>
+     <ENTRY>SAP würde hier &quot;MessageTyp = X&quot; anzeigen, diese Message kann es eigentlich nicht geben !!!</ENTRY>
+     <LENGTH>90</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Auswertung Rückerstattungen Gesuche/Fälle</ENTRY>
+     <LENGTH>41</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_AUSGL</KEY>
+     <ENTRY>FI-Beleg ausgeglichen (x=ja)</ENTRY>
+     <LENGTH>36</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_DETAIL</KEY>
+     <ENTRY>Detailliste (Faktura-Nr.)</ENTRY>
+     <LENGTH>33</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_FALL</KEY>
+     <ENTRY>Fälle 2011-2012</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_FIBEL</KEY>
+     <ENTRY>Finanzbeleg erstellt (x=ja)</ENTRY>
+     <LENGTH>35</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_GESUCH</KEY>
+     <ENTRY>Gesuche 2007-2010</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_LIFNR</KEY>
+     <ENTRY>CPD Lieferanten-Nummer</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_SUMMEN</KEY>
+     <ENTRY>Summenliste pro Fall-Nr.</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_T_ROWS</KEY>
+     <ENTRY>Anzahl Testfälle/-gesuche</ENTRY>
+     <LENGTH>33</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_ASZDT</KEY>
+     <ENTRY>Auszahlungsdatum (FI-Beleg)</ENTRY>
+     <LENGTH>35</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_OBJKEY</KEY>
+     <ENTRY>Objektschlüssel</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_RKRDT</KEY>
+     <ENTRY>Rechtskraftdatum</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_VFGDT</KEY>
+     <ENTRY>Verfügungsdatum</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+   </TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

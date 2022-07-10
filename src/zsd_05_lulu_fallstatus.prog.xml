@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZSD_05_LULU_FALLSTATUS</NAME>
+    <SUBC>1</SUBC>
+    <RSTAT>K</RSTAT>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Der Fallstatus darf nur einmal initial gelöscht werden! Wollen Sie löschen?</ENTRY>
+     <LENGTH>75</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Ja</ENTRY>
+     <LENGTH>2</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>Nein</ENTRY>
+     <LENGTH>4</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>M01</KEY>
+     <ENTRY>Fehler beim Aufbau der ALV-Liste</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>T01</KEY>
+     <ENTRY>Selektionsparameter</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Gesuche: Massenmutation Fallstatus</ENTRY>
+     <LENGTH>34</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_AMUNT</KEY>
+     <ENTRY>Einzelrechnungs-Betrag</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_DEL</KEY>
+     <ENTRY>Fallstatus initial löschen</ENTRY>
+     <LENGTH>34</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_ROW</KEY>
+     <ENTRY>Anzahl Datensätze</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_STAT</KEY>
+     <ENTRY>Status setzen</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_KUNNR</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>15</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_OBJKEY</KEY>
+     <ENTRY>Objektschlüssel</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+   </TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

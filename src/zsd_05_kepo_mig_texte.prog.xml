@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZSD_05_KEPO_MIG_TEXTE</NAME>
+    <SUBC>1</SUBC>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>BL1</KEY>
+     <ENTRY>Importeinstellungen</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>BL2</KEY>
+     <ENTRY>Allgemeine Einstellungen</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Migration Texte Kehrichtpolizei</ENTRY>
+     <LENGTH>31</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>FN_AUFT</KEY>
+     <ENTRY>Dateiname Auftrag</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>FN_DOCS</KEY>
+     <ENTRY>Dateiname Dokumente</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>FN_KEPO</KEY>
+     <ENTRY>Dateiname Kopfdaten</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>FN_LOG</KEY>
+     <ENTRY>Dateiname Logdatei</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>FN_TEXTS</KEY>
+     <ENTRY>Dateiname Texte</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_TEST</KEY>
+     <ENTRY>Testlauf</ENTRY>
+     <LENGTH>16</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_OVERW</KEY>
+     <ENTRY>Migrationsupdate</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+   </TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

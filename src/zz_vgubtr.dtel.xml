@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZZ_VGUBTR</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>WERTV8</DOMNAME>
+    <HEADLEN>21</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>16</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Vergütungs-/Verzugs-Zins-Betrag</DDTEXT>
+    <REPTEXT>Vergütungs-Betrag</REPTEXT>
+    <SCRTEXT_S>Verg.Betr.</SCRTEXT_S>
+    <SCRTEXT_M>Vergütungs-Betr.</SCRTEXT_M>
+    <SCRTEXT_L>Vergütungs-Betrag</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

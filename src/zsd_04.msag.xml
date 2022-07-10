@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZSD_04</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Gebühren</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_04</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_04</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Keine Berechtigung &amp; anzulegen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_04</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Keine Berechtigung &amp; zu ändern</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_04</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Keine Berechtigung &amp; anzuzeigen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_04</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Keine Berechtigung &amp; zu löschen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_04</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Keine Materialien im Gültigkeitszeitraum vorhanden!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_04</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Anlegen nicht möglich, es gibt Daten ab Datum &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_04</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Problem: bei der Langtext-Verbuchung &quot; &amp;1 &quot; bitte prüfen !!!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_04</ARBGB>
+     <MSGNR>101</MSGNR>
+     <TEXT>Durchschnittlicher Leerstand &amp; %: Keine Vergütung berechnet</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_04</ARBGB>
+     <MSGNR>102</MSGNR>
+     <TEXT>Keine Jahresgebühr zum Verrechnen gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_04</ARBGB>
+     <MSGNR>103</MSGNR>
+     <TEXT>Keine Total Fläche zum Verrechnen gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_04</ARBGB>
+     <MSGNR>104</MSGNR>
+     <TEXT>Leerstand kleiner 6 Monate: Keine Vergütung berechnet</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_04</ARBGB>
+     <MSGNR>105</MSGNR>
+     <TEXT>In diesem Zeitraum sind bereits Daten erfasst</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

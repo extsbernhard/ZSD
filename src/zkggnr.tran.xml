@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TRAN" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TSTC>
+    <TCODE>ZKGGNR</TCODE>
+    <PGMNA>SAPMSNUM</PGMNA>
+    <DYPNO>0100</DYPNO>
+    <CINFO>Ag==</CINFO>
+   </TSTC>
+   <TSTCC>
+    <TCODE>ZKGGNR</TCODE>
+    <S_WEBGUI>1</S_WEBGUI>
+   </TSTCC>
+   <TSTCT>
+    <SPRSL>D</SPRSL>
+    <TCODE>ZKGGNR</TCODE>
+    <TTEXT>Nummernkreispflege: ZKGG</TTEXT>
+   </TSTCT>
+   <TSTCP>
+    <TCODE>ZKGGNR</TCODE>
+    <PARAM>/NSNUM TNRO-OBJECT=ZKGG</PARAM>
+   </TSTCP>
+  </asx:values>
+ </asx:abap>
+</abapGit>

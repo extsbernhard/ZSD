@@ -1,0 +1,730 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SSFO" serializer_version="v1.0.0">
+ <sf:SMARTFORM xmlns:sf="urn:sap-com:SmartForms:2000:internal-structure" xmlns="urn:sap-com:sdixml-ifr:2000">
+  <HEADER>
+   <FORMNAME>ZLULU_REQU_01</FORMNAME>
+   <CAPTION>Datenanfrage LULU</CAPTION>
+   <FORMTYPE>T</FORMTYPE>
+   <MASTERLANG>D</MASTERLANG>
+   <LANGVECTOR>*</LANGVECTOR>
+   <DEVCLASS></DEVCLASS>
+   <VERSION>00001</VERSION>
+   <FIRSTUSER>DUMMY</FIRSTUSER>
+   <FIRSTDATE>2013-02-25</FIRSTDATE>
+   <FIRSTTIME>08:44:28</FIRSTTIME>
+   <LASTUSER>DUMMY</LASTUSER>
+   <LASTDATE></LASTDATE>
+   <LASTTIME></LASTTIME>
+  </HEADER>
+  <INTERFACE>
+   <item>
+    <IOTYPE>X</IOTYPE>
+    <NAME>FORMATTING_ERROR</NAME>
+    <STANDARD>X</STANDARD>
+   </item>
+   <item>
+    <IOTYPE>X</IOTYPE>
+    <NAME>INTERNAL_ERROR</NAME>
+    <STANDARD>X</STANDARD>
+   </item>
+   <item>
+    <IOTYPE>X</IOTYPE>
+    <NAME>SEND_ERROR</NAME>
+    <STANDARD>X</STANDARD>
+   </item>
+   <item>
+    <IOTYPE>X</IOTYPE>
+    <NAME>USER_CANCELED</NAME>
+    <STANDARD>X</STANDARD>
+   </item>
+   <item>
+    <IOTYPE>E</IOTYPE>
+    <NAME>DOCUMENT_OUTPUT_INFO</NAME>
+    <TYPING>TYPE</TYPING>
+    <TYPENAME>SSFCRESPD</TYPENAME>
+    <BYVALUE>X</BYVALUE>
+    <STANDARD>X</STANDARD>
+   </item>
+   <item>
+    <IOTYPE>E</IOTYPE>
+    <NAME>JOB_OUTPUT_INFO</NAME>
+    <TYPING>TYPE</TYPING>
+    <TYPENAME>SSFCRESCL</TYPENAME>
+    <BYVALUE>X</BYVALUE>
+    <STANDARD>X</STANDARD>
+   </item>
+   <item>
+    <IOTYPE>E</IOTYPE>
+    <NAME>JOB_OUTPUT_OPTIONS</NAME>
+    <TYPING>TYPE</TYPING>
+    <TYPENAME>SSFCRESOP</TYPENAME>
+    <BYVALUE>X</BYVALUE>
+    <STANDARD>X</STANDARD>
+   </item>
+   <item>
+    <IOTYPE>I</IOTYPE>
+    <NAME>ARCHIVE_INDEX</NAME>
+    <TYPING>TYPE</TYPING>
+    <TYPENAME>TOA_DARA</TYPENAME>
+    <OPTIONAL>X</OPTIONAL>
+    <BYVALUE>X</BYVALUE>
+    <STANDARD>X</STANDARD>
+   </item>
+   <item>
+    <IOTYPE>I</IOTYPE>
+    <NAME>ARCHIVE_INDEX_TAB</NAME>
+    <TYPING>TYPE</TYPING>
+    <TYPENAME>TSFDARA</TYPENAME>
+    <OPTIONAL>X</OPTIONAL>
+    <BYVALUE>X</BYVALUE>
+    <STANDARD>X</STANDARD>
+   </item>
+   <item>
+    <IOTYPE>I</IOTYPE>
+    <NAME>ARCHIVE_PARAMETERS</NAME>
+    <TYPING>TYPE</TYPING>
+    <TYPENAME>ARC_PARAMS</TYPENAME>
+    <OPTIONAL>X</OPTIONAL>
+    <BYVALUE>X</BYVALUE>
+    <STANDARD>X</STANDARD>
+   </item>
+   <item>
+    <IOTYPE>I</IOTYPE>
+    <NAME>CONTROL_PARAMETERS</NAME>
+    <TYPING>TYPE</TYPING>
+    <TYPENAME>SSFCTRLOP</TYPENAME>
+    <OPTIONAL>X</OPTIONAL>
+    <BYVALUE>X</BYVALUE>
+    <STANDARD>X</STANDARD>
+   </item>
+   <item>
+    <IOTYPE>I</IOTYPE>
+    <NAME>MAIL_APPL_OBJ</NAME>
+    <TYPING>TYPE</TYPING>
+    <TYPENAME>SWOTOBJID</TYPENAME>
+    <OPTIONAL>X</OPTIONAL>
+    <BYVALUE>X</BYVALUE>
+    <STANDARD>X</STANDARD>
+   </item>
+   <item>
+    <IOTYPE>I</IOTYPE>
+    <NAME>MAIL_RECIPIENT</NAME>
+    <TYPING>TYPE</TYPING>
+    <TYPENAME>SWOTOBJID</TYPENAME>
+    <OPTIONAL>X</OPTIONAL>
+    <BYVALUE>X</BYVALUE>
+    <STANDARD>X</STANDARD>
+   </item>
+   <item>
+    <IOTYPE>I</IOTYPE>
+    <NAME>MAIL_SENDER</NAME>
+    <TYPING>TYPE</TYPING>
+    <TYPENAME>SWOTOBJID</TYPENAME>
+    <OPTIONAL>X</OPTIONAL>
+    <BYVALUE>X</BYVALUE>
+    <STANDARD>X</STANDARD>
+   </item>
+   <item>
+    <IOTYPE>I</IOTYPE>
+    <NAME>OUTPUT_OPTIONS</NAME>
+    <TYPING>TYPE</TYPING>
+    <TYPENAME>SSFCOMPOP</TYPENAME>
+    <OPTIONAL>X</OPTIONAL>
+    <BYVALUE>X</BYVALUE>
+    <STANDARD>X</STANDARD>
+   </item>
+   <item>
+    <IOTYPE>I</IOTYPE>
+    <NAME>USER_SETTINGS</NAME>
+    <TYPING>TYPE</TYPING>
+    <TYPENAME>TDBOOL</TYPENAME>
+    <OPTIONAL>X</OPTIONAL>
+    <BYVALUE>X</BYVALUE>
+    <DEFAULTVAL>&apos;X&apos;</DEFAULTVAL>
+    <STANDARD>X</STANDARD>
+   </item>
+  </INTERFACE>
+  <sf:VARHEADER>
+   <sf:item>
+    <PAGEFORMAT>DINA4</PAGEFORMAT>
+    <STDSTYLE>Z_TAB_FORMS_01</STDSTYLE>
+    <sf:PAGETREE>
+     <sf:NODE>
+      <NODETYPE>TI</NODETYPE>
+      <sf:OBJ>
+       <sf:TEXT>
+        <NAME>
+         <INAME>%TEXT1</INAME>
+        </NAME>
+        <CAPTION>Datenanfrage LULU</CAPTION>
+        <TTYPE>R</TTYPE>
+        <TEXT>
+         <item>
+          <TDFORMAT>Z3</TDFORMAT>
+          <TDLINE>Gemäss Beschluss des Stadtrats vom 8. November 2012 wurden die</TDLINE>
+         </item>
+         <item>
+          <TDLINE>Kehrichtgrundgebühren in der Stadt Bern rückwirkend auf den 1. Januar</TDLINE>
+         </item>
+         <item>
+          <TDLINE>2011 gesenkt. Die Rückerstattung der zu viel bezahlten</TDLINE>
+         </item>
+         <item>
+          <TDLINE>Kehrichtgrundgebühren erfolgt zurück bis ins Jahr 2007.</TDLINE>
+         </item>
+         <item>
+          <TDFORMAT>Z3</TDFORMAT>
+         </item>
+         <item>
+          <TDFORMAT>Z3</TDFORMAT>
+          <TDLINE>In den Jahren 2011 und 2012 wurden die Gebühren aufgrund der</TDLINE>
+         </item>
+         <item>
+          <TDLINE>Rechtsunsicherheit lediglich provisorisch erhoben. Jetzt, da die</TDLINE>
+         </item>
+         <item>
+          <TDLINE>Rechtslage geklärt ist und der Entscheid des Stadtrats vorliegt, kann</TDLINE>
+         </item>
+         <item>
+          <TDLINE>die definitive Verrechnung der letzten beiden Jahre abgewickelt werden.</TDLINE>
+         </item>
+         <item>
+          <TDLINE>Die Rückvergütung erfolgt automatisch, es muss dazu kein Gesuch</TDLINE>
+         </item>
+         <item>
+          <TDLINE>eingereicht werden. Konkret werden den Grundeigentümerinnen und</TDLINE>
+         </item>
+         <item>
+          <TDLINE>Grundeigentümern mit der definitiven Gebührenabrechnung 2011 und 2012</TDLINE>
+         </item>
+         <item>
+          <TDLINE>die zu viel bezahlten Gebühren von Amtes wegen rückvergütet.</TDLINE>
+         </item>
+         <item>
+          <TDFORMAT>Z3</TDFORMAT>
+         </item>
+         <item>
+          <TDFORMAT>Z3</TDFORMAT>
+          <TDLINE>Sie waren in den Jahren 2011 und 2012 Empfänger respektive Empfängerin</TDLINE>
+         </item>
+         <item>
+          <TDLINE>der provisorischen Gebührenrechnungen. Die definitive Abrechnung der</TDLINE>
+         </item>
+         <item>
+          <TDLINE>Jahre 2011 und 2012 - die Verfügung - darf aus rechtlichen Gründen</TDLINE>
+         </item>
+         <item>
+          <TDLINE>einzig und allein den Grundeigentümerinnen und Grundeigentümern oder</TDLINE>
+         </item>
+         <item>
+          <TDLINE>aber einer von diesen bevollmächtigten Person oder Institution eröffnet</TDLINE>
+         </item>
+         <item>
+          <TDLINE>werden; ansonsten ist sie nichtig. Dies gilt auch für die</TDLINE>
+         </item>
+         <item>
+          <TDLINE>Kehrichtgrundgebühren ab 2013.</TDLINE>
+         </item>
+         <item>
+          <TDFORMAT>Z3</TDFORMAT>
+         </item>
+         <item>
+          <TDFORMAT>Z3</TDFORMAT>
+          <TDLINE>Wir bitten Sie deshalb, auf beiliegendem Formular anzugeben, wem die</TDLINE>
+         </item>
+         <item>
+          <TDLINE>definitive Abrechnung 2011/2012 sowie die Kehrichtgrundgebühren ab 2013</TDLINE>
+         </item>
+         <item>
+          <TDLINE>zu eröffnen sind. Sollten Sie selber nicht berechtigt sein, bitten wir</TDLINE>
+         </item>
+         <item>
+          <TDLINE>Sie, sich mit der Grundeigentümerschaft respektive der bevollmächtigten</TDLINE>
+         </item>
+         <item>
+          <TDLINE>Person oder Institution (z.B. Liegenschaftsverwaltung) in Verbindung zu</TDLINE>
+         </item>
+         <item>
+          <TDLINE>setzen und das Formular allenfalls weiterzureichen. Das Formular muss</TDLINE>
+         </item>
+         <item>
+          <TDLINE>von der Grundeigentümerschaft oder der berechtigten Person oder</TDLINE>
+         </item>
+         <item>
+          <TDLINE>Institution unterschrieben werden. Im gleichen Formular bitten wir Sie</TDLINE>
+         </item>
+         <item>
+          <TDLINE>zudem um die Angaben hinsichtlich Mehrwertsteuer und Ihre</TDLINE>
+         </item>
+         <item>
+          <TDLINE>Zahlungsverbindung, damit wir Ihnen die zuviel bezahlten</TDLINE>
+         </item>
+         <item>
+          <TDLINE>Kehrichtgrundgebühren zurückerstatten können.</TDLINE>
+         </item>
+         <item>
+          <TDFORMAT>Z3</TDFORMAT>
+         </item>
+         <item>
+          <TDFORMAT>Z3</TDFORMAT>
+          <TDLINE>In einem nächsten Schritt werden Sie für die Gebührenperiode 2011 und</TDLINE>
+         </item>
+         <item>
+          <TDLINE>2012 eine definitive Abrechnung in Verfügungsform erhalten. Wird diese</TDLINE>
+         </item>
+         <item>
+          <TDLINE>nicht angefochten, erfolgt automatisch nach Ablauf der Rechtsmittelfrist</TDLINE>
+         </item>
+         <item>
+          <TDLINE>(30 Tage) die entsprechende Rückzahlung.</TDLINE>
+         </item>
+         <item>
+          <TDFORMAT>Z3</TDFORMAT>
+         </item>
+         <item>
+          <TDFORMAT>Z3</TDFORMAT>
+          <TDLINE>Wir danken Ihnen für Ihr Verständnis. Sollten Sie Fragen zum Vorgehen</TDLINE>
+         </item>
+         <item>
+          <TDLINE>oder zum Formular haben, können Sie diese gerne an unsere Hotline 031</TDLINE>
+         </item>
+         <item>
+          <TDLINE>321 79 99 richten.</TDLINE>
+         </item>
+        </TEXT>
+        <STYLE_NAME>Z_TAB_FORMS_01</STYLE_NAME>
+        <T_CAPTION>
+         <item>
+          <LANGU>D</LANGU>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <OBJTYPE>TI</OBJTYPE>
+          <INAME>%TEXT1</INAME>
+          <CAPTION>Datenanfrage LULU</CAPTION>
+         </item>
+        </T_CAPTION>
+        <T_TEXT>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000001</LINENR>
+          <TDFORMAT>Z3</TDFORMAT>
+          <TDLINE>Gemäss Beschluss des Stadtrats vom 8. November 2012 wurden die</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000002</LINENR>
+          <TDLINE>Kehrichtgrundgebühren in der Stadt Bern rückwirkend auf den 1. Januar</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000003</LINENR>
+          <TDLINE>2011 gesenkt. Die Rückerstattung der zu viel bezahlten</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000004</LINENR>
+          <TDLINE>Kehrichtgrundgebühren erfolgt zurück bis ins Jahr 2007.</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000005</LINENR>
+          <TDFORMAT>Z3</TDFORMAT>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000006</LINENR>
+          <TDFORMAT>Z3</TDFORMAT>
+          <TDLINE>In den Jahren 2011 und 2012 wurden die Gebühren aufgrund der</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000007</LINENR>
+          <TDLINE>Rechtsunsicherheit lediglich provisorisch erhoben. Jetzt, da die</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000008</LINENR>
+          <TDLINE>Rechtslage geklärt ist und der Entscheid des Stadtrats vorliegt, kann</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000009</LINENR>
+          <TDLINE>die definitive Verrechnung der letzten beiden Jahre abgewickelt werden.</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000010</LINENR>
+          <TDLINE>Die Rückvergütung erfolgt automatisch, es muss dazu kein Gesuch</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000011</LINENR>
+          <TDLINE>eingereicht werden. Konkret werden den Grundeigentümerinnen und</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000012</LINENR>
+          <TDLINE>Grundeigentümern mit der definitiven Gebührenabrechnung 2011 und 2012</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000013</LINENR>
+          <TDLINE>die zu viel bezahlten Gebühren von Amtes wegen rückvergütet.</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000014</LINENR>
+          <TDFORMAT>Z3</TDFORMAT>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000015</LINENR>
+          <TDFORMAT>Z3</TDFORMAT>
+          <TDLINE>Sie waren in den Jahren 2011 und 2012 Empfänger respektive Empfängerin</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000016</LINENR>
+          <TDLINE>der provisorischen Gebührenrechnungen. Die definitive Abrechnung der</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000017</LINENR>
+          <TDLINE>Jahre 2011 und 2012 - die Verfügung - darf aus rechtlichen Gründen</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000018</LINENR>
+          <TDLINE>einzig und allein den Grundeigentümerinnen und Grundeigentümern oder</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000019</LINENR>
+          <TDLINE>aber einer von diesen bevollmächtigten Person oder Institution eröffnet</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000020</LINENR>
+          <TDLINE>werden; ansonsten ist sie nichtig. Dies gilt auch für die</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000021</LINENR>
+          <TDLINE>Kehrichtgrundgebühren ab 2013.</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000022</LINENR>
+          <TDFORMAT>Z3</TDFORMAT>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000023</LINENR>
+          <TDFORMAT>Z3</TDFORMAT>
+          <TDLINE>Wir bitten Sie deshalb, auf beiliegendem Formular anzugeben, wem die</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000024</LINENR>
+          <TDLINE>definitive Abrechnung 2011/2012 sowie die Kehrichtgrundgebühren ab 2013</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000025</LINENR>
+          <TDLINE>zu eröffnen sind. Sollten Sie selber nicht berechtigt sein, bitten wir</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000026</LINENR>
+          <TDLINE>Sie, sich mit der Grundeigentümerschaft respektive der bevollmächtigten</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000027</LINENR>
+          <TDLINE>Person oder Institution (z.B. Liegenschaftsverwaltung) in Verbindung zu</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000028</LINENR>
+          <TDLINE>setzen und das Formular allenfalls weiterzureichen. Das Formular muss</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000029</LINENR>
+          <TDLINE>von der Grundeigentümerschaft oder der berechtigten Person oder</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000030</LINENR>
+          <TDLINE>Institution unterschrieben werden. Im gleichen Formular bitten wir Sie</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000031</LINENR>
+          <TDLINE>zudem um die Angaben hinsichtlich Mehrwertsteuer und Ihre</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000032</LINENR>
+          <TDLINE>Zahlungsverbindung, damit wir Ihnen die zuviel bezahlten</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000033</LINENR>
+          <TDLINE>Kehrichtgrundgebühren zurückerstatten können.</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000034</LINENR>
+          <TDFORMAT>Z3</TDFORMAT>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000035</LINENR>
+          <TDFORMAT>Z3</TDFORMAT>
+          <TDLINE>In einem nächsten Schritt werden Sie für die Gebührenperiode 2011 und</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000036</LINENR>
+          <TDLINE>2012 eine definitive Abrechnung in Verfügungsform erhalten. Wird diese</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000037</LINENR>
+          <TDLINE>nicht angefochten, erfolgt automatisch nach Ablauf der Rechtsmittelfrist</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000038</LINENR>
+          <TDLINE>(30 Tage) die entsprechende Rückzahlung.</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000039</LINENR>
+          <TDFORMAT>Z3</TDFORMAT>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000040</LINENR>
+          <TDFORMAT>Z3</TDFORMAT>
+          <TDLINE>Wir danken Ihnen für Ihr Verständnis. Sollten Sie Fragen zum Vorgehen</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000041</LINENR>
+          <TDLINE>oder zum Formular haben, können Sie diese gerne an unsere Hotline 031</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000042</LINENR>
+          <TDLINE>321 79 99 richten.</TDLINE>
+         </item>
+        </T_TEXT>
+       </sf:TEXT>
+      </sf:OBJ>
+      <sf:OUTATTR>
+       <sf:OUTATTR>
+        <NAME>
+         <INAME>%OUTATTRIB6</INAME>
+        </NAME>
+        <U_WFRAME>PT</U_WFRAME>
+        <U_WBOXV>CM</U_WBOXV>
+        <U_WBOXH>CM</U_WBOXH>
+        <U_WLEFT>CM</U_WLEFT>
+        <WWIDTH>15.00</WWIDTH>
+        <U_WWIDTH>CM</U_WWIDTH>
+        <U_WTOP>CM</U_WTOP>
+        <U_WHEIGHT>CM</U_WHEIGHT>
+        <BORDER>
+         <LEFTATTR>
+          <THICKNESS>0.00</THICKNESS>
+          <THICKNESSU>PT</THICKNESSU>
+          <DISTANCE>0.00</DISTANCE>
+          <DISTANCEU>CM</DISTANCEU>
+          <COLOR>
+           <RED>000</RED>
+           <GREEN>000</GREEN>
+           <BLUE>000</BLUE>
+           <TRANS>000</TRANS>
+          </COLOR>
+         </LEFTATTR>
+         <TOPATTR>
+          <THICKNESS>0.00</THICKNESS>
+          <THICKNESSU>PT</THICKNESSU>
+          <DISTANCE>0.00</DISTANCE>
+          <DISTANCEU>CM</DISTANCEU>
+          <COLOR>
+           <RED>000</RED>
+           <GREEN>000</GREEN>
+           <BLUE>000</BLUE>
+           <TRANS>000</TRANS>
+          </COLOR>
+         </TOPATTR>
+         <RIGHTATTR>
+          <THICKNESS>0.00</THICKNESS>
+          <THICKNESSU>PT</THICKNESSU>
+          <DISTANCE>0.00</DISTANCE>
+          <DISTANCEU>CM</DISTANCEU>
+          <COLOR>
+           <RED>000</RED>
+           <GREEN>000</GREEN>
+           <BLUE>000</BLUE>
+           <TRANS>000</TRANS>
+          </COLOR>
+         </RIGHTATTR>
+         <BOTTOMATTR>
+          <THICKNESS>0.00</THICKNESS>
+          <THICKNESSU>PT</THICKNESSU>
+          <DISTANCE>0.00</DISTANCE>
+          <DISTANCEU>CM</DISTANCEU>
+          <COLOR>
+           <RED>000</RED>
+           <GREEN>000</GREEN>
+           <BLUE>000</BLUE>
+           <TRANS>000</TRANS>
+          </COLOR>
+         </BOTTOMATTR>
+        </BORDER>
+        <T_CAPTION>
+         <item>
+          <LANGU>D</LANGU>
+          <FORMNAME>ZLULU_REQU_01</FORMNAME>
+          <OBJTYPE>OA</OBJTYPE>
+          <INAME>%OUTATTRIB6</INAME>
+         </item>
+        </T_CAPTION>
+       </sf:OUTATTR>
+      </sf:OUTATTR>
+      <sf:SUCC/>
+     </sf:NODE>
+    </sf:PAGETREE>
+   </sf:item>
+  </sf:VARHEADER>
+ </sf:SMARTFORM>
+</abapGit>

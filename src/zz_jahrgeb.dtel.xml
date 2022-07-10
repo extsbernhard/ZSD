@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZZ_JAHRGEB</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>BETRG</DOMNAME>
+    <HEADLEN>13</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Jahresgebühr</DDTEXT>
+    <REPTEXT>Jahresgebühr</REPTEXT>
+    <SCRTEXT_S>Jahr.geb.</SCRTEXT_S>
+    <SCRTEXT_M>Jahresgebühr</SCRTEXT_M>
+    <SCRTEXT_L>Jahresgebühr</SCRTEXT_L>
+    <APPLCLASS>PSTA</APPLCLASS>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Jahresgebühr</DDTEXT>
+     <REPTEXT>Jahresgebühr</REPTEXT>
+     <SCRTEXT_S>Jahr.geb.</SCRTEXT_S>
+     <SCRTEXT_M>Jahresgebühr</SCRTEXT_M>
+     <SCRTEXT_L>Jahresgebühr</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

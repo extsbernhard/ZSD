@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZSD_SBZ_VSETIK_01</NAME>
+    <SUBC>1</SUBC>
+    <APPL>V</APPL>
+    <RSTAT>K</RSTAT>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Dialog-Report für Datendownload VS-Etiketten-Daten aus SAP</ENTRY>
+     <LENGTH>58</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_AKTUA</KEY>
+     <ENTRY>Adressdaten aktualisieren</ENTRY>
+     <LENGTH>33</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_APPD</KEY>
+     <ENTRY>Datensätze anhängen (X=Ja)</ENTRY>
+     <LENGTH>34</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_ASC</KEY>
+     <ENTRY>ASCII-Datei mit Trennzeichen</ENTRY>
+     <LENGTH>36</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_DAT</KEY>
+     <ENTRY>Textdatei mit TAB-Trennung</ENTRY>
+     <LENGTH>34</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_DATUE</KEY>
+     <ENTRY>Datenübernahme erfolgt (X=Ja)</ENTRY>
+     <LENGTH>37</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_DBF</KEY>
+     <ENTRY>DBase V - Datei</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_FNAM</KEY>
+     <ENTRY>Lfw:\Verzeichnis\Dateiname</ENTRY>
+     <LENGTH>34</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_HEAD</KEY>
+     <ENTRY>mit Headerzeile(nur bei ASCII)</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_STOKZ</KEY>
+     <ENTRY>Stornierte Datensätze</ENTRY>
+     <LENGTH>29</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_TEST</KEY>
+     <ENTRY>Testübernahme ohne SAP-Update</ENTRY>
+     <LENGTH>37</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_TRENN</KEY>
+     <ENTRY>Trennzeichen für ASCII-Datei</ENTRY>
+     <LENGTH>36</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_WK1</KEY>
+     <ENTRY>WK1 - Datei (für Excel)</ENTRY>
+     <LENGTH>31</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_ERDAT</KEY>
+     <ENTRY>Erstellungsdatum (Lieferung)</ENTRY>
+     <LENGTH>36</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_LFART</KEY>
+     <ENTRY>Lieferart (Belegart)</ENTRY>
+     <LENGTH>28</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_UNAME</KEY>
+     <ENTRY>Ersteller der Lieferung</ENTRY>
+     <LENGTH>31</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_VBELN</KEY>
+     <ENTRY>Lieferungs-Nummer</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_VKORG</KEY>
+     <ENTRY>Verkaufsorganisation</ENTRY>
+     <LENGTH>28</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_VSTEL</KEY>
+     <ENTRY>Versandstelle</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+   </TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

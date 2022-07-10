@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZSD_01_KUNDENSTAMM_ANSPRECHPAR</NAME>
+    <SUBC>1</SUBC>
+    <RSTAT>K</RSTAT>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>H</ID>
+     <KEY>001</KEY>
+     <ENTRY>Vorname                       Kundennummer</ENTRY>
+     <LENGTH>42</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>I05</KEY>
+     <ENTRY>returncode =</ENTRY>
+     <LENGTH>12</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>P01</KEY>
+     <ENTRY>Spielen Mappe</ENTRY>
+     <LENGTH>13</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>P02</KEY>
+     <ENTRY>Löschen unerledigte Datensätze</ENTRY>
+     <LENGTH>33</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>T01</KEY>
+     <ENTRY>Direkt-input Ergebniss</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Kundenstamm Ansprechpartner Vorname in Internet Adresse moven</ENTRY>
+     <LENGTH>61</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>CTU</KEY>
+     <ENTRY>CTU</ENTRY>
+     <LENGTH>11</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>CTUMODE</KEY>
+     <ENTRY>Datum</ENTRY>
+     <LENGTH>13</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>CUPDATE</KEY>
+     <ENTRY>Datum</ENTRY>
+     <LENGTH>13</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>E_GROUP</KEY>
+     <ENTRY>Error Gruppr</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>E_HDATE</KEY>
+     <ENTRY>Datum</ENTRY>
+     <LENGTH>13</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>E_KEEP</KEY>
+     <ENTRY>Error Halten</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>E_USER</KEY>
+     <ENTRY>Error Benutzer</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>GROUP</KEY>
+     <ENTRY>Gruppe</ENTRY>
+     <LENGTH>14</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>HOLDDATE</KEY>
+     <ENTRY>Halten</ENTRY>
+     <LENGTH>14</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>KEEP</KEY>
+     <ENTRY>Behalten</ENTRY>
+     <LENGTH>16</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>NODATA</KEY>
+     <ENTRY>Nodata</ENTRY>
+     <LENGTH>14</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_KTOKD</KEY>
+     <ENTRY>Kontengruppe Debitor</ENTRY>
+     <LENGTH>28</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_LOE</KEY>
+     <ENTRY>Löschen JA</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>SESSION</KEY>
+     <ENTRY>Session</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>SMALLLOG</KEY>
+     <ENTRY>Log</ENTRY>
+     <LENGTH>11</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>USER</KEY>
+     <ENTRY>Benutzer</ENTRY>
+     <LENGTH>16</LENGTH>
+    </item>
+    <item>
+     <ID>T</ID>
+     <ENTRY>Ansprechpartner Inetrnet Adresse aus Vorname</ENTRY>
+     <LENGTH>44</LENGTH>
+    </item>
+   </TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

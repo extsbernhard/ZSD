@@ -1,0 +1,592 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SSFO" serializer_version="v1.0.0">
+ <sf:SMARTFORM xmlns:sf="urn:sap-com:SmartForms:2000:internal-structure" xmlns="urn:sap-com:sdixml-ifr:2000">
+  <HEADER>
+   <FORMNAME>ZKEPO_1_TEXT_BGUI</FORMNAME>
+   <CAPTION>Teil 1</CAPTION>
+   <FORMTYPE>T</FORMTYPE>
+   <MASTERLANG>D</MASTERLANG>
+   <LANGVECTOR>*</LANGVECTOR>
+   <DEVCLASS></DEVCLASS>
+   <VERSION>00001</VERSION>
+   <FIRSTUSER>DUMMY</FIRSTUSER>
+   <FIRSTDATE>2011-01-14</FIRSTDATE>
+   <FIRSTTIME>06:37:32</FIRSTTIME>
+   <LASTUSER>DUMMY</LASTUSER>
+   <LASTDATE></LASTDATE>
+   <LASTTIME></LASTTIME>
+  </HEADER>
+  <INTERFACE>
+   <item>
+    <IOTYPE>X</IOTYPE>
+    <NAME>FORMATTING_ERROR</NAME>
+    <STANDARD>X</STANDARD>
+   </item>
+   <item>
+    <IOTYPE>X</IOTYPE>
+    <NAME>INTERNAL_ERROR</NAME>
+    <STANDARD>X</STANDARD>
+   </item>
+   <item>
+    <IOTYPE>X</IOTYPE>
+    <NAME>SEND_ERROR</NAME>
+    <STANDARD>X</STANDARD>
+   </item>
+   <item>
+    <IOTYPE>X</IOTYPE>
+    <NAME>USER_CANCELED</NAME>
+    <STANDARD>X</STANDARD>
+   </item>
+   <item>
+    <IOTYPE>E</IOTYPE>
+    <NAME>DOCUMENT_OUTPUT_INFO</NAME>
+    <TYPING>TYPE</TYPING>
+    <TYPENAME>SSFCRESPD</TYPENAME>
+    <BYVALUE>X</BYVALUE>
+    <STANDARD>X</STANDARD>
+   </item>
+   <item>
+    <IOTYPE>E</IOTYPE>
+    <NAME>JOB_OUTPUT_INFO</NAME>
+    <TYPING>TYPE</TYPING>
+    <TYPENAME>SSFCRESCL</TYPENAME>
+    <BYVALUE>X</BYVALUE>
+    <STANDARD>X</STANDARD>
+   </item>
+   <item>
+    <IOTYPE>E</IOTYPE>
+    <NAME>JOB_OUTPUT_OPTIONS</NAME>
+    <TYPING>TYPE</TYPING>
+    <TYPENAME>SSFCRESOP</TYPENAME>
+    <BYVALUE>X</BYVALUE>
+    <STANDARD>X</STANDARD>
+   </item>
+   <item>
+    <IOTYPE>I</IOTYPE>
+    <NAME>ARCHIVE_INDEX</NAME>
+    <TYPING>TYPE</TYPING>
+    <TYPENAME>TOA_DARA</TYPENAME>
+    <OPTIONAL>X</OPTIONAL>
+    <BYVALUE>X</BYVALUE>
+    <STANDARD>X</STANDARD>
+   </item>
+   <item>
+    <IOTYPE>I</IOTYPE>
+    <NAME>ARCHIVE_INDEX_TAB</NAME>
+    <TYPING>TYPE</TYPING>
+    <TYPENAME>TSFDARA</TYPENAME>
+    <OPTIONAL>X</OPTIONAL>
+    <BYVALUE>X</BYVALUE>
+    <STANDARD>X</STANDARD>
+   </item>
+   <item>
+    <IOTYPE>I</IOTYPE>
+    <NAME>ARCHIVE_PARAMETERS</NAME>
+    <TYPING>TYPE</TYPING>
+    <TYPENAME>ARC_PARAMS</TYPENAME>
+    <OPTIONAL>X</OPTIONAL>
+    <BYVALUE>X</BYVALUE>
+    <STANDARD>X</STANDARD>
+   </item>
+   <item>
+    <IOTYPE>I</IOTYPE>
+    <NAME>CONTROL_PARAMETERS</NAME>
+    <TYPING>TYPE</TYPING>
+    <TYPENAME>SSFCTRLOP</TYPENAME>
+    <OPTIONAL>X</OPTIONAL>
+    <BYVALUE>X</BYVALUE>
+    <STANDARD>X</STANDARD>
+   </item>
+   <item>
+    <IOTYPE>I</IOTYPE>
+    <NAME>MAIL_APPL_OBJ</NAME>
+    <TYPING>TYPE</TYPING>
+    <TYPENAME>SWOTOBJID</TYPENAME>
+    <OPTIONAL>X</OPTIONAL>
+    <BYVALUE>X</BYVALUE>
+    <STANDARD>X</STANDARD>
+   </item>
+   <item>
+    <IOTYPE>I</IOTYPE>
+    <NAME>MAIL_RECIPIENT</NAME>
+    <TYPING>TYPE</TYPING>
+    <TYPENAME>SWOTOBJID</TYPENAME>
+    <OPTIONAL>X</OPTIONAL>
+    <BYVALUE>X</BYVALUE>
+    <STANDARD>X</STANDARD>
+   </item>
+   <item>
+    <IOTYPE>I</IOTYPE>
+    <NAME>MAIL_SENDER</NAME>
+    <TYPING>TYPE</TYPING>
+    <TYPENAME>SWOTOBJID</TYPENAME>
+    <OPTIONAL>X</OPTIONAL>
+    <BYVALUE>X</BYVALUE>
+    <STANDARD>X</STANDARD>
+   </item>
+   <item>
+    <IOTYPE>I</IOTYPE>
+    <NAME>OUTPUT_OPTIONS</NAME>
+    <TYPING>TYPE</TYPING>
+    <TYPENAME>SSFCOMPOP</TYPENAME>
+    <OPTIONAL>X</OPTIONAL>
+    <BYVALUE>X</BYVALUE>
+    <STANDARD>X</STANDARD>
+   </item>
+   <item>
+    <IOTYPE>I</IOTYPE>
+    <NAME>USER_SETTINGS</NAME>
+    <TYPING>TYPE</TYPING>
+    <TYPENAME>TDBOOL</TYPENAME>
+    <OPTIONAL>X</OPTIONAL>
+    <BYVALUE>X</BYVALUE>
+    <DEFAULTVAL>&apos;X&apos;</DEFAULTVAL>
+    <STANDARD>X</STANDARD>
+   </item>
+  </INTERFACE>
+  <sf:VARHEADER>
+   <sf:item>
+    <PAGEFORMAT>DINA4</PAGEFORMAT>
+    <STDSTYLE>Z_TAB_FORMS_01</STDSTYLE>
+    <sf:PAGETREE>
+     <sf:NODE>
+      <NODETYPE>TI</NODETYPE>
+      <sf:OBJ>
+       <sf:TEXT>
+        <NAME>
+         <INAME>%TEXT1</INAME>
+        </NAME>
+        <CAPTION>Teil 1</CAPTION>
+        <TTYPE>R</TTYPE>
+        <TEXT>
+         <item>
+          <TDFORMAT>Z9</TDFORMAT>
+          <TDLINE>Entsorgung + Recycling Stadt Bern hat am &amp;ukopfdaten-funddat&amp; um</TDLINE>
+         </item>
+         <item>
+          <TDLINE>&amp;ukopfdaten-funzeit&amp; Uhr an folgender Adresse einen zur Unzeit</TDLINE>
+         </item>
+         <item>
+          <TDLINE>bereitgestellten Gebührensack vorgefunden und mitgenommen:</TDLINE>
+         </item>
+         <item>
+          <TDLINE>&amp;ukopfdaten-funadr&amp;. Bei der Untersuchung fanden wir &amp;ukopfdaten-doktxt&amp;</TDLINE>
+         </item>
+         <item>
+          <TDLINE>mit Ihrer Adresse.</TDLINE>
+         </item>
+         <item>
+          <TDFORMAT>Z9</TDFORMAT>
+         </item>
+         <item>
+          <TDFORMAT>Z9</TDFORMAT>
+          <TDLINE>Kehrichtsäcke und Kleinsperrgut dürfen in der Innenstadt gemäss Artikel</TDLINE>
+         </item>
+         <item>
+          <TDLINE>17 Absatz 3 der Abfallverordnung der Stadt Bern vom 8. November 2006 nur</TDLINE>
+         </item>
+         <item>
+          <TDLINE>zu den durch Entsorgung + Recycling festgelegten Zeiten bereitgestellt</TDLINE>
+         </item>
+         <item>
+          <TDLINE>werden. Die Bereitstellungszeiten werden im Abfallkalender, der jedes</TDLINE>
+         </item>
+         <item>
+          <TDLINE>Jahr an alle Haushalte der Stadt Bern verteilt wird, sowie auf der</TDLINE>
+         </item>
+         <item>
+          <TDLINE>Internetseite www.bern.ch/entsorgung bekanntgegeben. In der Innenstadt</TDLINE>
+         </item>
+         <item>
+          <TDLINE>darf der Hauskehricht jeweils am &lt;Z2&gt;Montag, Dienstag, Donnerstag und</TDLINE>
+         </item>
+         <item>
+          <TDLINE>Freitag zwischen 06.00 und 09.00 Uhr bereitgestellt werden&lt;/&gt;.</TDLINE>
+         </item>
+         <item>
+          <TDFORMAT>Z9</TDFORMAT>
+         </item>
+         <item>
+          <TDFORMAT>Z9</TDFORMAT>
+          <TDLINE>Leider müssen wir seit einiger Zeit feststellen, dass sich zunehmend</TDLINE>
+         </item>
+         <item>
+          <TDLINE>Personen nicht mehr an die Regeln der korrekten Abfallentsorgung halten.</TDLINE>
+         </item>
+         <item>
+          <TDLINE>Zu früh oder zu spät herausgestellte Säcke liegen herum, werden von</TDLINE>
+         </item>
+         <item>
+          <TDLINE>Tieren aufgerissen und verschmutzen den öffentlichen Raum. Dies führt zu</TDLINE>
+         </item>
+         <item>
+          <TDLINE>wachsendem Unmut unter all jenen Personen, die ihren Abfall korrekt</TDLINE>
+         </item>
+         <item>
+          <TDLINE>entsorgen. Diese Bürgerinnen und Bürger sind immer seltener bereit, im</TDLINE>
+         </item>
+         <item>
+          <TDLINE>Rahmen der allgemeinen Abfallgebühren für den aus der Entsorgung von</TDLINE>
+         </item>
+         <item>
+          <TDLINE>nicht korrekt bereitgestelltem Abfall resultierenden Mehraufwand</TDLINE>
+         </item>
+         <item>
+          <TDLINE>aufzukommen. Dies umso mehr, als die Kosten für die Entsorgung von</TDLINE>
+         </item>
+         <item>
+          <TDLINE>solchem Abfall um ein Vielfaches höher sind als für korrekt</TDLINE>
+         </item>
+         <item>
+          <TDLINE>bereitgestellten und entsorgten Kehricht. Nicht vorschriftsgemäss,</TDLINE>
+         </item>
+         <item>
+          <TDLINE>beispielsweise zu früh bereitgestellte Gebührensäcke werden deshalb</TDLINE>
+         </item>
+         <item>
+          <TDLINE>unter Kostenfolge abgeführt (Artikel 12 Absatz 2 Abfallverordnung vom 8.</TDLINE>
+         </item>
+         <item>
+          <TDLINE>November 2006).</TDLINE>
+         </item>
+         <item>
+          <TDFORMAT>Z9</TDFORMAT>
+         </item>
+        </TEXT>
+        <STYLE_NAME>Z_TAB_FORMS_01</STYLE_NAME>
+        <T_CAPTION>
+         <item>
+          <LANGU>D</LANGU>
+          <FORMNAME>ZKEPO_1_TEXT_BGUI</FORMNAME>
+          <OBJTYPE>TI</OBJTYPE>
+          <INAME>%TEXT1</INAME>
+          <CAPTION>Teil 1</CAPTION>
+         </item>
+        </T_CAPTION>
+        <T_TEXT>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZKEPO_1_TEXT_BGUI</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000001</LINENR>
+          <TDFORMAT>Z9</TDFORMAT>
+          <TDLINE>Entsorgung + Recycling Stadt Bern hat am &amp;ukopfdaten-funddat&amp; um</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZKEPO_1_TEXT_BGUI</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000002</LINENR>
+          <TDLINE>&amp;ukopfdaten-funzeit&amp; Uhr an folgender Adresse einen zur Unzeit</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZKEPO_1_TEXT_BGUI</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000003</LINENR>
+          <TDLINE>bereitgestellten Gebührensack vorgefunden und mitgenommen:</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZKEPO_1_TEXT_BGUI</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000004</LINENR>
+          <TDLINE>&amp;ukopfdaten-funadr&amp;. Bei der Untersuchung fanden wir &amp;ukopfdaten-doktxt&amp;</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZKEPO_1_TEXT_BGUI</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000005</LINENR>
+          <TDLINE>mit Ihrer Adresse.</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZKEPO_1_TEXT_BGUI</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000006</LINENR>
+          <TDFORMAT>Z9</TDFORMAT>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZKEPO_1_TEXT_BGUI</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000007</LINENR>
+          <TDFORMAT>Z9</TDFORMAT>
+          <TDLINE>Kehrichtsäcke und Kleinsperrgut dürfen in der Innenstadt gemäss Artikel</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZKEPO_1_TEXT_BGUI</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000008</LINENR>
+          <TDLINE>17 Absatz 3 der Abfallverordnung der Stadt Bern vom 8. November 2006 nur</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZKEPO_1_TEXT_BGUI</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000009</LINENR>
+          <TDLINE>zu den durch Entsorgung + Recycling festgelegten Zeiten bereitgestellt</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZKEPO_1_TEXT_BGUI</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000010</LINENR>
+          <TDLINE>werden. Die Bereitstellungszeiten werden im Abfallkalender, der jedes</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZKEPO_1_TEXT_BGUI</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000011</LINENR>
+          <TDLINE>Jahr an alle Haushalte der Stadt Bern verteilt wird, sowie auf der</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZKEPO_1_TEXT_BGUI</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000012</LINENR>
+          <TDLINE>Internetseite www.bern.ch/entsorgung bekanntgegeben. In der Innenstadt</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZKEPO_1_TEXT_BGUI</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000013</LINENR>
+          <TDLINE>darf der Hauskehricht jeweils am &lt;Z2&gt;Montag, Dienstag, Donnerstag und</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZKEPO_1_TEXT_BGUI</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000014</LINENR>
+          <TDLINE>Freitag zwischen 06.00 und 09.00 Uhr bereitgestellt werden&lt;/&gt;.</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZKEPO_1_TEXT_BGUI</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000015</LINENR>
+          <TDFORMAT>Z9</TDFORMAT>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZKEPO_1_TEXT_BGUI</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000016</LINENR>
+          <TDFORMAT>Z9</TDFORMAT>
+          <TDLINE>Leider müssen wir seit einiger Zeit feststellen, dass sich zunehmend</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZKEPO_1_TEXT_BGUI</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000017</LINENR>
+          <TDLINE>Personen nicht mehr an die Regeln der korrekten Abfallentsorgung halten.</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZKEPO_1_TEXT_BGUI</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000018</LINENR>
+          <TDLINE>Zu früh oder zu spät herausgestellte Säcke liegen herum, werden von</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZKEPO_1_TEXT_BGUI</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000019</LINENR>
+          <TDLINE>Tieren aufgerissen und verschmutzen den öffentlichen Raum. Dies führt zu</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZKEPO_1_TEXT_BGUI</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000020</LINENR>
+          <TDLINE>wachsendem Unmut unter all jenen Personen, die ihren Abfall korrekt</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZKEPO_1_TEXT_BGUI</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000021</LINENR>
+          <TDLINE>entsorgen. Diese Bürgerinnen und Bürger sind immer seltener bereit, im</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZKEPO_1_TEXT_BGUI</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000022</LINENR>
+          <TDLINE>Rahmen der allgemeinen Abfallgebühren für den aus der Entsorgung von</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZKEPO_1_TEXT_BGUI</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000023</LINENR>
+          <TDLINE>nicht korrekt bereitgestelltem Abfall resultierenden Mehraufwand</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZKEPO_1_TEXT_BGUI</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000024</LINENR>
+          <TDLINE>aufzukommen. Dies umso mehr, als die Kosten für die Entsorgung von</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZKEPO_1_TEXT_BGUI</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000025</LINENR>
+          <TDLINE>solchem Abfall um ein Vielfaches höher sind als für korrekt</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZKEPO_1_TEXT_BGUI</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000026</LINENR>
+          <TDLINE>bereitgestellten und entsorgten Kehricht. Nicht vorschriftsgemäss,</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZKEPO_1_TEXT_BGUI</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000027</LINENR>
+          <TDLINE>beispielsweise zu früh bereitgestellte Gebührensäcke werden deshalb</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZKEPO_1_TEXT_BGUI</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000028</LINENR>
+          <TDLINE>unter Kostenfolge abgeführt (Artikel 12 Absatz 2 Abfallverordnung vom 8.</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZKEPO_1_TEXT_BGUI</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000029</LINENR>
+          <TDLINE>November 2006).</TDLINE>
+         </item>
+         <item>
+          <SPRAS>D</SPRAS>
+          <TXTYPE>F</TXTYPE>
+          <FORMNAME>ZKEPO_1_TEXT_BGUI</FORMNAME>
+          <INAME>%TEXT1</INAME>
+          <LINENR>000030</LINENR>
+          <TDFORMAT>Z9</TDFORMAT>
+         </item>
+        </T_TEXT>
+       </sf:TEXT>
+      </sf:OBJ>
+      <sf:OUTATTR>
+       <sf:OUTATTR>
+        <NAME>
+         <INAME>%OUTATTRIB6</INAME>
+        </NAME>
+        <U_WFRAME>PT</U_WFRAME>
+        <U_WBOXV>CM</U_WBOXV>
+        <U_WBOXH>CM</U_WBOXH>
+        <U_WLEFT>CM</U_WLEFT>
+        <WWIDTH>15.00</WWIDTH>
+        <U_WWIDTH>CM</U_WWIDTH>
+        <U_WTOP>CM</U_WTOP>
+        <U_WHEIGHT>CM</U_WHEIGHT>
+        <BORDER>
+         <LEFTATTR>
+          <THICKNESS>0.00</THICKNESS>
+          <THICKNESSU>PT</THICKNESSU>
+          <DISTANCE>0.00</DISTANCE>
+          <DISTANCEU>CM</DISTANCEU>
+          <COLOR>
+           <RED>000</RED>
+           <GREEN>000</GREEN>
+           <BLUE>000</BLUE>
+           <TRANS>000</TRANS>
+          </COLOR>
+         </LEFTATTR>
+         <TOPATTR>
+          <THICKNESS>0.00</THICKNESS>
+          <THICKNESSU>PT</THICKNESSU>
+          <DISTANCE>0.00</DISTANCE>
+          <DISTANCEU>CM</DISTANCEU>
+          <COLOR>
+           <RED>000</RED>
+           <GREEN>000</GREEN>
+           <BLUE>000</BLUE>
+           <TRANS>000</TRANS>
+          </COLOR>
+         </TOPATTR>
+         <RIGHTATTR>
+          <THICKNESS>0.00</THICKNESS>
+          <THICKNESSU>PT</THICKNESSU>
+          <DISTANCE>0.00</DISTANCE>
+          <DISTANCEU>CM</DISTANCEU>
+          <COLOR>
+           <RED>000</RED>
+           <GREEN>000</GREEN>
+           <BLUE>000</BLUE>
+           <TRANS>000</TRANS>
+          </COLOR>
+         </RIGHTATTR>
+         <BOTTOMATTR>
+          <THICKNESS>0.00</THICKNESS>
+          <THICKNESSU>PT</THICKNESSU>
+          <DISTANCE>0.00</DISTANCE>
+          <DISTANCEU>CM</DISTANCEU>
+          <COLOR>
+           <RED>000</RED>
+           <GREEN>000</GREEN>
+           <BLUE>000</BLUE>
+           <TRANS>000</TRANS>
+          </COLOR>
+         </BOTTOMATTR>
+        </BORDER>
+        <T_CAPTION>
+         <item>
+          <LANGU>D</LANGU>
+          <FORMNAME>ZKEPO_1_TEXT_BGUI</FORMNAME>
+          <OBJTYPE>OA</OBJTYPE>
+          <INAME>%OUTATTRIB6</INAME>
+         </item>
+        </T_CAPTION>
+       </sf:OUTATTR>
+      </sf:OUTATTR>
+      <sf:SUCC/>
+     </sf:NODE>
+    </sf:PAGETREE>
+   </sf:item>
+  </sf:VARHEADER>
+ </sf:SMARTFORM>
+</abapGit>

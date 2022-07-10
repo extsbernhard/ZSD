@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZZ_KONTRBETR</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>WERTV6</DOMNAME>
+    <HEADLEN>16</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Kontraktbetrag</DDTEXT>
+    <REPTEXT>Kontraktbetrag</REPTEXT>
+    <SCRTEXT_S>Betrag</SCRTEXT_S>
+    <SCRTEXT_M>Betrag</SCRTEXT_M>
+    <SCRTEXT_L>Kontraktbetrag</SCRTEXT_L>
+    <APPLCLASS>VF</APPLCLASS>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Rate (condition amount or percentage)</DDTEXT>
+     <REPTEXT>Rate</REPTEXT>
+     <SCRTEXT_S>Rate</SCRTEXT_S>
+     <SCRTEXT_M>Rate</SCRTEXT_M>
+     <SCRTEXT_L>Condition rate</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZZ_KONTRBETR</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00014</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZZ_KONTRBETR</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Legt fest, wie das System unter Verwendung dieser Kondition den Preis</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ermittelt. Ob es sich um einen festen Betrag oder um einen Prozentsatz</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>handelt, hängt von der &lt;GL:Konditionsart&gt;Konditionsart&lt;/&gt; ab. Enthält</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>die Kondition eine &lt;GL:Staffel&gt;Staffel&lt;/&gt;, wird im Feld für den Betrag</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>oder für den Prozentsatz die erste Staffelstufe angezeigt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Folgende Beispiele zeigen, wie Sie den Betrag oder Prozentsatz bei</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>verschiedenen Konditionsarten einsetzen:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Wenn Sie eine Kondition erfassen, die Preise enthält (z.B. Preise für</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ein Material), geben Sie einen Betrag ein.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Wenn Sie eine Kondition erfassen, die sich auf einen prozentualen Zu-</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>oder Abschlag bezieht (z.B. einen kundenindividuellen Abschlag), geben</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Sie einen Prozentsatz ein. Bei einem Abschlag stellt das System nach</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>dem Prozentsatz automatisch ein Minuszeichen und im Feld für die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Konditionseinheit&lt;/&gt; ein Prozentzeichen ein.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZZ_KONTRBETR</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00014</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZZ_KONTRBETR</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Determines how the system calculates pricing using this condition.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Depending on the &lt;GL:condition_type&gt;condition type&lt;/&gt;, the rate can be</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>a fixed amount or a percentage. If the condition includes a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;GL:pricing_scale&gt;pricing scale&lt;/&gt;, the rate displays the first line of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the scale.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The following examples illustrate how you can use the rate in different</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>condition types:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>If you create a condition that includes prices (for example, prices for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>a material), you enter an amount.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>If you are creating a condition based on percentage discounts or</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>surcharges (for example, a customer-specific discount), you enter the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>value of a percentage. If the condition is a discount, the system</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>automatically enters a minus sign behind the amount and a percent sign</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>in the &lt;LS&gt;Rate unit&lt;/&gt; field.</TDLINE>
+      </TLINE>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

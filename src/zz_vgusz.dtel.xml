@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZZ_VGUSZ</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>FIN_INTRATE</DOMNAME>
+    <HEADLEN>19</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>19</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Vergütungs/-Verzugszinssatz</DDTEXT>
+    <REPTEXT>Vergütungszins-Satz</REPTEXT>
+    <SCRTEXT_S>Verg.-Satz</SCRTEXT_S>
+    <SCRTEXT_M>Vergütungszins-Satz</SCRTEXT_M>
+    <SCRTEXT_L>Vergütungszins-Satz</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

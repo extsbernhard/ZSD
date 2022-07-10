@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZSD_05_LULU</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Nachrichten Rückerstattung Kehrichtgrundgebühr (LULU)</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_LULU</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Gesuchnummer oder Stadtteil/Parzelle/Objekt/Per.beginn/Per.ende eingeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_LULU</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Gesuch zu Objekt &amp; zur Periode &amp; - &amp; noch nicht erfasst.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_LULU</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Gesuch zu Objekt &amp; zur oder innerhalb der Periode &amp; - &amp; bereits erfasst.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_LULU</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Gesuch &amp; zu Objekt &amp; zur Periode &amp; - &amp; erfolgreich angelegt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_LULU</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Gesuch &amp; zu Objekt &amp; zur Periode &amp; - &amp; erfolgreich geändert.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_LULU</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Gesuchnummer &amp; nicht vorhanden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_LULU</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Beim Anlegen Stadtteil/Parzelle/(Objekt)/Per.beginn/Per.ende eingeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_LULU</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Das Gesuch &amp; ist bereits von &amp; gesperrt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_LULU</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Gesuchsperiode darf nur zwischen 01.05.2007 bis 31.12.2010 erfasst werden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_LULU</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Die Bildung des Schlüssels kann einige Minuten dauern.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_LULU</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_LULU</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Keine protokollierten Änderungen zur Selektion gefunden!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_LULU</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Fallnummer oder Stadtteil/Parzelle/Objekt/Per.beginn/Per.ende eingeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_LULU</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Fall zu Objekt &amp; zur Periode &amp; - &amp; noch nicht erfasst.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_LULU</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Fall zu Objekt &amp; zur oder innerhalb der Periode &amp; - &amp; bereits erfasst.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_LULU</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Fall &amp; zu Objekt &amp; zur Periode &amp; - &amp; erfolgreich angelegt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_LULU</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Fall &amp; zu Objekt &amp; zur Periode &amp; - &amp; erfolgreich geändert.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_LULU</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Fallnummer &amp; nicht vorhanden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_LULU</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Beim Anlegen Stadtteil/Parzelle/(Objekt)/Per.beginn/Per.ende eingeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_LULU</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Der Fall &amp; ist bereits von &amp; gesperrt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_LULU</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>Fallperiode darf nur zwischen 01.01.2011 bis 31.12.2012 erfasst werden</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

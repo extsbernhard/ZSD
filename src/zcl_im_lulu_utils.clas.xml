@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_IM_LULU_UTILS</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Utility Class LULU</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IM_LULU_UTILS</CLSNAME>
+     <CMPNAME>C_TC_FV60</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Transaktionscode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IM_LULU_UTILS</CLSNAME>
+     <CMPNAME>IT_BKPF</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Belegkopf</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IM_LULU_UTILS</CLSNAME>
+     <CMPNAME>IT_BSEC</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Belegsegment CPD-Daten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IM_LULU_UTILS</CLSNAME>
+     <CMPNAME>IT_BSEG</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Belegzeile</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IM_LULU_UTILS</CLSNAME>
+     <CMPNAME>IT_BSET</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Belegsegment Steuerdaten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IM_LULU_UTILS</CLSNAME>
+     <CMPNAME>IT_BSEZ</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zusatzinformationen zur Buchungszeile ( Dialog</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IM_LULU_UTILS</CLSNAME>
+     <CMPNAME>POST_PRELIMANRY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Kreditorenvorerfassung</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

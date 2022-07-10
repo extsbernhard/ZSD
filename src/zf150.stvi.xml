@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_STVI" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <STVI>
+    <SHDTVCIU>
+     <TCVARIANT>ZF150</TCVARIANT>
+     <TCODE>F150</TCODE>
+     <VERSION>3</VERSION>
+     <FLAG_GUI>X</FLAG_GUI>
+    </SHDTVCIU>
+    <SHDTTCIU>
+     <SHDTTCIU>
+      <LANGU>D</LANGU>
+      <TCVARIANT>ZF150</TCVARIANT>
+      <TCVTEXT>Mahnen ohne Reorg-Möglichkeit</TCVTEXT>
+     </SHDTTCIU>
+    </SHDTTCIU>
+    <SHDFVGUICU>
+     <SHDFVGUICU>
+      <TCVARIANT>ZF150</TCVARIANT>
+      <GUI_PROG>SAPF150V</GUI_PROG>
+      <GUI_STATUS>DU0100</GUI_STATUS>
+      <GUI_FUNC>EREO</GUI_FUNC>
+     </SHDFVGUICU>
+    </SHDFVGUICU>
+    <SHDTVSVCIU>
+     <SHDTVSVCIU>
+      <TCVARIANT>ZF150</TCVARIANT>
+      <SCVARIANT>ZF150_1000</SCVARIANT>
+     </SHDTVSVCIU>
+    </SHDTVSVCIU>
+   </STVI>
+  </asx:values>
+ </asx:abap>
+</abapGit>

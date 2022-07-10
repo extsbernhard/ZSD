@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZSD_05_LULU_EIGENTUEMER_KORR</NAME>
+    <SUBC>1</SUBC>
+    <APPL>Y</APPL>
+    <RSTAT>K</RSTAT>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>E01</KEY>
+     <ENTRY>Bitte Selektionsparamete prüfen, keine Daten selektiert !!!</ENTRY>
+     <LENGTH>59</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>I01</KEY>
+     <ENTRY>Es wurden &amp;1 Datensätze selektiert, Verarbeitung folgt.</ENTRY>
+     <LENGTH>55</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>I09</KEY>
+     <ENTRY>Alle &amp;1 Datensätze sind korrekt bezüglich der Eigentümer-Daten, es wurden keine Änderungen durchgeführt!!!</ENTRY>
+     <LENGTH>106</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>S01</KEY>
+     <ENTRY>--------------------- Simulation ---------------------</ENTRY>
+     <LENGTH>54</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>S02</KEY>
+     <ENTRY>Es würden in &amp;1 Datensätzen die Eigentümer-Daten korrigiert werden !!!</ENTRY>
+     <LENGTH>70</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>S03</KEY>
+     <ENTRY>Es sind &amp;1 Datensätze in Ordnung in Bezug zu den Eigentümer-Daten!!!</ENTRY>
+     <LENGTH>68</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>U01</KEY>
+     <ENTRY>--------------------- E c h t v e r a r b e i t u n g   mit Update ---------------------</ENTRY>
+     <LENGTH>88</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>U02</KEY>
+     <ENTRY>Es wurden in &amp;1 Datensätzen die Eigentümer-Daten korrigiert worden !!!</ENTRY>
+     <LENGTH>70</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>U03</KEY>
+     <ENTRY>Es sind &amp;1 Datensätze in Ordnung und werdne nicht verändert !!!</ENTRY>
+     <LENGTH>63</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Eigentuemer Korrektur auf Kehr_Auft</ENTRY>
+     <LENGTH>35</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_ECHT</KEY>
+     <ENTRY>Echtverarbeitung mit DB-Update</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_SIMU</KEY>
+     <ENTRY>Simulationslauf ohne DB-Update</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_FAKNR</KEY>
+     <ENTRY>Faktura-Nummer</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_FKDAT</KEY>
+     <ENTRY>Faktura-Datum</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_KUNNR</KEY>
+     <ENTRY>Faktura-Regulier in&quot;Kehr_Auft&quot;</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+   </TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

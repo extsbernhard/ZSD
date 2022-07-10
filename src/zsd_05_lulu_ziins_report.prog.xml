@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZSD_05_LULU_ZIINS_REPORT</NAME>
+    <SUBC>1</SUBC>
+    <APPL>*</APPL>
+    <RSTAT>K</RSTAT>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>F00</KEY>
+     <ENTRY>Bitte treffen Sie eine Auswahl, ohne Selektion keine Auswertung!</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>F01</KEY>
+     <ENTRY>Leider konnten keine Daten selektiert werden, bitte prüfen Sie Ihre Eingabe.</ENTRY>
+     <LENGTH>76</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Auswertung Zinsberechnung für Gesuche oder Objekt-Nummern</ENTRY>
+     <LENGTH>57</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_FAKNR</KEY>
+     <ENTRY>Faktura-Nummer</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_FALLNR</KEY>
+     <ENTRY>Fall-Nummer(Gesuche 2007-2010)</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_OBJKEY</KEY>
+     <ENTRY>Objektschlüssel</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+   </TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

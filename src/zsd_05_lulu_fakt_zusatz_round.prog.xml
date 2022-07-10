@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZSD_05_LULU_FAKT_ZUSATZ_ROUND</NAME>
+    <SUBC>1</SUBC>
+    <APPL>V</APPL>
+    <RSTAT>K</RSTAT>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>I01</KEY>
+     <ENTRY>Bitte die Selektions-Optionen prüfen, es wurden keine Daten zur Selektion ermittelt! - Ende der Verarbeitung -</ENTRY>
+     <LENGTH>130</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>I10</KEY>
+     <ENTRY>Es wurden #LINES# Datensätze selektiert !!!</ENTRY>
+     <LENGTH>120</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Füllen Zusatzinformationen zu Kehr_Auft (Positionswerte)</ENTRY>
+     <LENGTH>56</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_MVERF</KEY>
+     <ENTRY>Berechnung mit verfügten</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_OVERF</KEY>
+     <ENTRY>Berechnung ohne verfügte</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_DATBI</KEY>
+     <ENTRY>Verr-Periode Ende</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_OBJKY</KEY>
+     <ENTRY>Objekt-Schlüssel(9stellig num)</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_VERR</KEY>
+     <ENTRY>Verr-Periode Start</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+   </TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

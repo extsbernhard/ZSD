@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZSD_05_KEPO</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Nachrichtenklasse: Fallverwaltung Kehrichtpolizei</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Bitte Fallnummer und Geschäftsjahr eingeben</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Fallnummer &amp; im Geschäftsjahr &amp; nicht vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Der Fall &amp; &amp; ist bereits von &amp; gesperrt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Der Fall &amp; im Geschäftsjahr &amp; wurde korrekt angelegt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Der Fall &amp; im Geschäftsjahr &amp; wurde nicht korrekt angelegt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Der Fall &amp; im Geschäftsjahr &amp; wurde korrekt geändert</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Der Fall &amp; im Geschäftsjahr &amp; wurde nicht korrekt geändert</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Der Fall &amp; im Geschäftsjahr &amp; wurde korrekt annulliert</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Der Fall &amp; im Geschäftsjahr &amp; wurde nicht korrekt annulliert</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Der Fall &amp; im Geschäftsjahr &amp; wurde bereits annulliert</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Der Fall &amp; im Geschäftsjahr &amp; kann nicht annulliert werden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Der Fall &amp; im Geschäftsjahr &amp; ist annulliert - nur Anzeige möglich!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Der Fall &amp; im Geschäftsjahr &amp; ist erledigt - nur Anzeige möglich!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Aufruf dieses Falles &amp;/&amp; über anderen Fall - nur Anzeige möglich!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Das Jahr &amp; darf im Funddatum nicht mehr geändert werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>Bei der Eingabe des Debitorenverlustes den Betrag und das Datum eingeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>Der Kundenauftrag &amp; wurde erfolgreich angelegt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>Der Kundenauftrag &amp; wurde nicht erfolgreich angelegt. Bitte überprüfen!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>Der Kundenauftrag &amp; wurde erfolgreich storniert.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>Der Kundenauftrag &amp; wurde nicht erfolgreich storniert. Bitte überprüfen!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>044</MSGNR>
+     <TEXT>Die Faktura &amp; wurde erfolgreich angelegt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>Die Faktura &amp; wurde nicht erfolgreich angelegt. Bitte überprüfen!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>046</MSGNR>
+     <TEXT>Die Faktura &amp; wurde erfolgreich storniert.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>047</MSGNR>
+     <TEXT>Die Faktura &amp; wurde nicht erfolgreich storniert. Bitte überprüfen!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>Die Kopfdaten zum Fall &amp; &amp; wurden korrekt geändert</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>061</MSGNR>
+     <TEXT>Die Kopfdaten zum Fall &amp; &amp; wurden nicht korrekt geändert</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>062</MSGNR>
+     <TEXT>Die Auftragsdaten &amp; &amp; zum Fall &amp; &amp; wurden korrekt angelegt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>063</MSGNR>
+     <TEXT>Die Auftragsdaten &amp; &amp; zum Fall &amp; &amp; wurden nicht korrekt angelegt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>064</MSGNR>
+     <TEXT>Die Auftragsdaten &amp; &amp; zum Fall &amp; &amp; wurden korrekt geändert</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>065</MSGNR>
+     <TEXT>Die Auftragsdaten &amp; &amp; zum Fall &amp; &amp; wurden nicht korrekt geändert</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>066</MSGNR>
+     <TEXT>Die Auftragsdaten &amp; &amp; zum Fall &amp; &amp; wurden korrekt gelöscht</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>067</MSGNR>
+     <TEXT>Die Auftragsdaten &amp; &amp; zum Fall &amp; &amp; wurden nicht korrekt gelöscht</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>068</MSGNR>
+     <TEXT>Es wurden keine Änderungen zum Fall &amp; &amp; vorgenommen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>100</MSGNR>
+     <TEXT>Der Fall &amp; wurde per &amp; ausgeglichen. (Funddatum: &amp;; Kundennummer: &amp;).</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>101</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>110</MSGNR>
+     <TEXT>Fehler bei der Nummernvergabe des neuen Falles</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>111</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>900</MSGNR>
+     <TEXT>Migration - Fehler bei Nummervergabe bei Fallnummer &amp; - ERR</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>901</MSGNR>
+     <TEXT>Migration - Kopfdaten zu Fall &amp; mit neuer Fallnummer &amp; in DB geschrieben</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>902</MSGNR>
+     <TEXT>Migration - Kopfdaten zu Fall &amp; nicht in DB geschrieben - ERR</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>903</MSGNR>
+     <TEXT>Migration - Keine Dokumente zu Fall &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>904</MSGNR>
+     <TEXT>Migration - Dokumentposition &amp; zu Fall &amp; &amp; in DB geschrieben</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>905</MSGNR>
+     <TEXT>Migration - Dokumentposition &amp; zu Fall &amp; &amp; nicht in DB geschrieben - ERR</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>906</MSGNR>
+     <TEXT>Migration - Keine Auftragsdaten zu Fall &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>907</MSGNR>
+     <TEXT>Migration - Auftrags-Datensatz zu Fall &amp; &amp; in DB geschrieben</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>908</MSGNR>
+     <TEXT>Migration - Auftrags-Datensatz zu Fall &amp; &amp; nicht in DB geschrieben - ERR</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>909</MSGNR>
+     <TEXT>Migration - Keine Materialpositionen zu Fall &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>910</MSGNR>
+     <TEXT>Migration - Material &amp; &amp; zu Fall &amp; &amp; in DB geschrieben</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>911</MSGNR>
+     <TEXT>Migration - Material &amp; &amp; zu Fall &amp; &amp; nicht in DB geschrieben - ERR</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>912</MSGNR>
+     <TEXT>Migration - Keine Bemerkungen zu Fall &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>913</MSGNR>
+     <TEXT>Migration - Bemerkungen zu Fall &amp; &amp; in DB geschrieben</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>914</MSGNR>
+     <TEXT>Migration - Bemerkungen zu Fall &amp; &amp; nicht in DB geschrieben - ERR</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>915</MSGNR>
+     <TEXT>Migration - Beim Fall &amp; fehlt im System der Debitor zu Referenz &amp; - ERR</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>929</MSGNR>
+     <TEXT>Migration - ABGESCHLOSSEN</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>930</MSGNR>
+     <TEXT>Migration - TESTLAUF</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSD_05_KEPO</ARBGB>
+     <MSGNR>931</MSGNR>
+    </T100>
+   </T100>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>ZSD_05_KEPO017</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0007</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00007</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZSD_05_KEPO017</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00007</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Der Fall kann nicht annulliert werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Bitte überprüfen Sie die Verrechnungsdaten. Der Fall kann nur</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE> in folgenden Fällen annulliert werden:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Weder der Auftrag noch die Faktura wurden für den Fall erstellt</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Der Auftrag wurde erstellt und wieder storniert</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Der Auftrag sowie die Faktura wurden erstellt und wieder storniert</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Der Status &quot;keine Verrechnung&quot; wurde nicht gesetzt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

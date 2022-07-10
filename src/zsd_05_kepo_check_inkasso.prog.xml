@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZSD_05_KEPO_CHECK_INKASSO</NAME>
+    <SUBC>1</SUBC>
+    <RSTAT>K</RSTAT>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>BL1</KEY>
+     <ENTRY>Falldaten</ENTRY>
+     <LENGTH>9</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>BL2</KEY>
+     <ENTRY>Einstellungen</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Kehrichtpolizei: Verarbeitung der Inkassodaten</ENTRY>
+     <LENGTH>46</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_CHKALL</KEY>
+     <ENTRY>Sämtliche Fälle prüfen</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_KNROLD</KEY>
+     <ENTRY>Alte Kundennr. berücksichtigen</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_LOG</KEY>
+     <ENTRY>Logtabelle füllen</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_LOG_FN</KEY>
+     <ENTRY>Dateiname Logdatei</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_MAHNS</KEY>
+     <ENTRY>Anzahl zu prüfende Mahnstufen</ENTRY>
+     <LENGTH>37</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_TEST</KEY>
+     <ENTRY>Testlauf</ENTRY>
+     <LENGTH>16</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>SO_FNR</KEY>
+     <ENTRY>Fallnummer</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>SO_GJAHR</KEY>
+     <ENTRY>Geschäftsjahr</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>SO_REC</KEY>
+     <ENTRY>E-Mailempfänger</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+   </TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

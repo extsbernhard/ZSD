@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZSD_05_LULU_OBJKEY_BUILD</NAME>
+    <SUBC>1</SUBC>
+    <RSTAT>K</RSTAT>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>M01</KEY>
+     <ENTRY>Fehler beim Aufbau der ALV-Liste</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>OBJ</KEY>
+     <ENTRY>Tabellen selektieren zur Bildung des Objektschlüssels</ENTRY>
+     <LENGTH>53</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>T01</KEY>
+     <ENTRY>Selektion der Objekte, Gesuche, Fälle</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Objektschlüssel bilden</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_AUFT</KEY>
+     <ENTRY>Kehrauft</ENTRY>
+     <LENGTH>16</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_HD02</KEY>
+     <ENTRY>Fälle</ENTRY>
+     <LENGTH>13</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_HEAD</KEY>
+     <ENTRY>Gesuche</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_KEHR</KEY>
+     <ENTRY>Kehrmat</ENTRY>
+     <LENGTH>16</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_OBJEKT</KEY>
+     <ENTRY>Objekt</ENTRY>
+     <LENGTH>14</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_ROW</KEY>
+     <ENTRY>Anzahl Datensätze</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_FALLNR</KEY>
+     <ENTRY>Fallnummer/Gesuchsnummer</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_OBJKEY</KEY>
+     <ENTRY>Objektschlüssel</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_PERBG</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>21</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_PERED</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>20</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+   </TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

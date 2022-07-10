@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZZ_RUECK_MWST_BTR</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>WERTV6</DOMNAME>
+    <HEADLEN>19</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>MwSt zum Rückerstattungsbetrag</DDTEXT>
+    <REPTEXT>Rückerstattung MwSt</REPTEXT>
+    <SCRTEXT_S>Rue_MwSt</SCRTEXT_S>
+    <SCRTEXT_M>Rückerst.MwSt</SCRTEXT_M>
+    <SCRTEXT_L>Rückerstattung MwSt</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

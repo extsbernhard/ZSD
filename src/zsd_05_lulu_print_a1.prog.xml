@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZSD_05_LULU_PRINT_A1</NAME>
+    <SUBC>1</SUBC>
+    <APPL>*</APPL>
+    <RSTAT>K</RSTAT>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>000</KEY>
+     <ENTRY>Druckparameter</ENTRY>
+     <LENGTH>14</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Fall (2011+2012) oder Gesuche (2007-2010) - Parameter</ENTRY>
+     <LENGTH>53</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Übergreifende Selektionsparameter</ENTRY>
+     <LENGTH>33</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>Spezielle Gesuchs-Parameter</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>004</KEY>
+     <ENTRY>Spezielle Fall-Parameter</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>005</KEY>
+     <ENTRY>Echt-/Test- Verarbeitung</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>010</KEY>
+     <ENTRY>Es wurde kein Rechtskraft-Datum und keine Zusatztage erfasst, Rechtskraft-Datum = Verfügungsdatum + 40 Tage !!!</ENTRY>
+     <LENGTH>111</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>011</KEY>
+     <ENTRY>Es wurde ein Rechtrskraft-Datum und Zusatztage definiert! - Die Zusatztage werden ignoriert !!!</ENTRY>
+     <LENGTH>95</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>020</KEY>
+     <ENTRY>Bitte beachten: Dieser Ausdruck soll eingeschrieben versandt werden !!! (Vorsteuer wurde geltend gemacht)</ENTRY>
+     <LENGTH>105</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>D01</KEY>
+     <ENTRY>Gemäss der gewünschten Selektion wurden : &amp;w_sum_formular&amp;</ENTRY>
+     <LENGTH>60</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>D02</KEY>
+     <ENTRY> Verfügungen für die Gebührenperiode</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>D03</KEY>
+     <ENTRY> vom: &amp;w_pstart&amp; bis: &amp;w_pende&amp; drucktechnisch ausgegeben.</ENTRY>
+     <LENGTH>100</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>D10</KEY>
+     <ENTRY>Die ausgedruckten Verfügungen und die zugehörigen Datenbestände wurden mit den gewünschten Daten aktualisiert.</ENTRY>
+     <LENGTH>110</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>D15</KEY>
+     <ENTRY>Verfügungsdatum: &amp;p_vfgdt&amp;</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>D16</KEY>
+     <ENTRY>            Rechtskraftdatum: &amp;p_rkrdt&amp;</ENTRY>
+     <LENGTH>39</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>D20</KEY>
+     <ENTRY>Verfügungen können nun für diese Fälle/Gesuche nur noch manuell, wie beschrieben abgerufen werden.</ENTRY>
+     <LENGTH>98</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>D30</KEY>
+     <ENTRY>Bei Fragen, wenden Sie sich bitte an Frau Andrea Giger bzw. Frau Tamara Balisger.</ENTRY>
+     <LENGTH>81</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>E01</KEY>
+     <ENTRY>Protokoll vom System: &amp;sy-sysid&amp; vom: &amp;sy-datum&amp; um: &amp;sy-uzeit&amp; !</ENTRY>
+     <LENGTH>100</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>F99</KEY>
+     <ENTRY>Bitte überprüfen Sie die Selektionsparameter, es wurden keine Dokumente erstellt.</ENTRY>
+     <LENGTH>81</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>H01</KEY>
+     <ENTRY> - Progr: ZSD_05_LuLu_Print_A1 - Druckprgramm zum Abruf der Verfügungen 2007-2010 und 2011-2012</ENTRY>
+     <LENGTH>95</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>T00</KEY>
+     <ENTRY>LuLu</ENTRY>
+     <LENGTH>4</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>T01</KEY>
+     <ENTRY>Pro-Forma-Verfügung Fälle 2011-2012</ENTRY>
+     <LENGTH>35</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>T02</KEY>
+     <ENTRY>Pro-Forma-Verfügung Gesuche 2007-2010</ENTRY>
+     <LENGTH>37</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>LuLu - Proforma-Verfügungs-Druckprogramm</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_DLOG</KEY>
+     <ENTRY>keine Dialogausgabe</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_ECHT</KEY>
+     <ENTRY>Echtverarbeitung</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_FALL</KEY>
+     <ENTRY>Verarbeitung Fälle 2011-2012</ENTRY>
+     <LENGTH>36</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_GESUCH</KEY>
+     <ENTRY>Verarbeitung Gesuche 2007-2010</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_PLFILL</KEY>
+     <ENTRY>ZSD_05_t_printl füllen (Test)</ENTRY>
+     <LENGTH>37</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_PRIDEV</KEY>
+     <ENTRY>Drucker auswählen</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_PRNOW</KEY>
+     <ENTRY>Sofortdruck</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_QUOTX</KEY>
+     <ENTRY>nur geprüfte Rückzahlungsquote</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_RKDAT</KEY>
+     <ENTRY>Rechtskraftdatum (fix)</ENTRY>
+     <LENGTH>35</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_RKDAY</KEY>
+     <ENTRY>(Verfügungsdatum+30) + Tage</ENTRY>
+     <LENGTH>35</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_TEST</KEY>
+     <ENTRY>Testverarbeitung</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_T_ROWS</KEY>
+     <ENTRY>Anzahl Testrecords</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_VFDAT</KEY>
+     <ENTRY>Datum der Pro-Forma-Verfügung</ENTRY>
+     <LENGTH>37</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_VSTX</KEY>
+     <ENTRY>Vorsteuer geltend gemacht</ENTRY>
+     <LENGTH>33</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_WIEDHD</KEY>
+     <ENTRY>Wiederholdruck (nur Echtdruck)</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_AGSP</KEY>
+     <ENTRY>Angabensperre</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_EIGDA</KEY>
+     <ENTRY>Eingangsdatum</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_LOEVM</KEY>
+     <ENTRY>Löschvormerkung</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_OBJKEY</KEY>
+     <ENTRY>Objektschlüssel</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_QUOTE</KEY>
+     <ENTRY>Quotenwerte zwischen</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_STATUS</KEY>
+     <ENTRY>Fall-Status</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_VFGDT</KEY>
+     <ENTRY>Wiederh.Druck (Verfügungsdt)</ENTRY>
+     <LENGTH>36</LENGTH>
+    </item>
+   </TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

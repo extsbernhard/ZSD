@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZSD_SBZ_DEBILIST_AP01</NAME>
+    <SUBC>1</SUBC>
+    <APPL>*</APPL>
+    <RSTAT>K</RSTAT>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>List-Auswahl</ENTRY>
+     <LENGTH>12</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Selektions-Optionen</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>Spez. Selektionsmerkmale</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>004</KEY>
+     <ENTRY>Listausgabe</ENTRY>
+     <LENGTH>11</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>F01</KEY>
+     <ENTRY>Es wurden keine Einträge selektiert! Bitte die Selektionsparameter prüfen!!!</ENTRY>
+     <LENGTH>76</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>FS0</KEY>
+     <ENTRY>Es wurde keine korrekte Listauswahl definiert!!!</ENTRY>
+     <LENGTH>48</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>S99</KEY>
+     <ENTRY>SAP würde hier &quot;MessageTyp = X&quot; anzeigen, diese Message kann es eigentlich nicht geben !!!</ENTRY>
+     <LENGTH>90</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Auswertung Debitoren und Ansprechpartner mit E-Mail-Adr.</ENTRY>
+     <LENGTH>56</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_APALLE</KEY>
+     <ENTRY>Alle Ansprechpartner</ENTRY>
+     <LENGTH>28</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_DEB1AP</KEY>
+     <ENTRY>1 Ansprechpartner pro Kunde</ENTRY>
+     <LENGTH>35</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_DEB9AP</KEY>
+     <ENTRY>Alle Ansprechpartner pro Kunde</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_DEBALL</KEY>
+     <ENTRY>Alle Debitoren mit Anspr.Partn</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_DEBOHN</KEY>
+     <ENTRY>Alle Debitoren ohne Anspr.Part</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_VARI</KEY>
+     <ENTRY>Listvariante</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_ABTNR</KEY>
+     <ENTRY>Abteilung</ENTRY>
+     <LENGTH>17</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_ABTPA</KEY>
+     <ENTRY>Abteilung d. Ansprechpartner</ENTRY>
+     <LENGTH>36</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_BRAN1</KEY>
+     <ENTRY>Branchencode</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_BRSCH</KEY>
+     <ENTRY>Branche des Kunden</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_KDGRP</KEY>
+     <ENTRY>Kundengruppe</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_KUNNR</KEY>
+     <ENTRY>Kunden-Nummer</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_PAFKT</KEY>
+     <ENTRY>Funktion d. Ansprechpartners</ENTRY>
+     <LENGTH>36</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_PAKN1</KEY>
+     <ENTRY>Attribute</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_PAKN2</KEY>
+     <ENTRY>Attribut 7</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_PAKN3</KEY>
+     <ENTRY>Attribut 8</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_PAKN4</KEY>
+     <ENTRY>Attribut 9</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_PAKN5</KEY>
+     <ENTRY>Attribut 10</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_PARH1</KEY>
+     <ENTRY>Attribut 1</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_PARH2</KEY>
+     <ENTRY>Attribut 2</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_PARH3</KEY>
+     <ENTRY>Attribut 3</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_PARH4</KEY>
+     <ENTRY>Attribut 4</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_PARH5</KEY>
+     <ENTRY>Attribut 5</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_PARVO</KEY>
+     <ENTRY>Kaderstufe</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_PAVIP</KEY>
+     <ENTRY>Newsletter</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_VKORG</KEY>
+     <ENTRY>Verkaufsorganisation</ENTRY>
+     <LENGTH>28</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_VTWEG</KEY>
+     <ENTRY>Vertriebsweg</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+   </TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>
